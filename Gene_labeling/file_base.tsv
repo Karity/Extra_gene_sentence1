@@ -1,0 +1,20 @@
+﻿PMID	sentence	label
+25505733	EGFR HER2 to the RAF MEK ERK pathway and others regulat-ing cell growth proliferation and apoptosis 36	['MEK', 'ERK']
+25505733	BRAF a serine-threonine kinase lies downstream of KRAS anddirectly activates MEK by phosphorylation which in turn activatesERK	['BRAF', 'MEK']
+25505733	There are ongoing clinical trials assessing BRAF MEK and AKT inhibitors in this population	['BRAF', 'MEK']
+25505733	PI3K can be activated by transmembrane receptor tyrosinekinases like EGFR or RAS through phosphorylation of AKT	['AKT', 'PI3K']
+29973561	Our recent studies indicate that theactivation of alternative signaling pathways such as PI3K mTOR and Wnt may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however in cell lines with mutant EGFR there is activation of the mTOR pathway	['EGFR', 'PI3K']
+29973561	Inappropriate ampliﬁcation of MET a gene that codes for an epithelial RTK thatactivates signaling of the MAPK PI3K and SRC pathways upon binding by its ligand hepatocytegrowth factor HGF [69] stimulates the AKT pathway and is also a major contributor to EGFR TKIsecondary resistance Figure 1	['AKT', 'PI3K']
+29973561	More speciﬁcally MET ampliﬁcation has been shown topromote geﬁtinib resistance by activating PI3K through ERBB3 HER3 despite EGFR inhibition viageﬁtinib [70]	['EGFR', 'PI3K']
+29973561	IGF-1R has thepotential to dimerize with EGFR after treatment with erlotinib transducing signals to the AKT andMAPK signaling pathways that would otherwise be silenced by erlotinib Figure 1	
+29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	['EGFR', 'PI3K']
+29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	['EGFR', 'PI3K']
+29973561	One study has shown thatelevated expression of alternate isoforms of RAF proteins CRAF and ARAF can continually stimulate	
+29973561	Increased expression of MAP3K8 or COT can stimulate the MAPK pathway to bypass BRAF inhibition Figure 3 [50 51]	
+29973561	Parallel activation of the PI3K pathway may inhibit apoptosis in BRAF-mutant NSCLC throughMCL-1 despite inhibition of BRAF [50]	
+29973561	CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors	
+29973561	Elevated expression of alternative RAF isoforms ARAF and CRAF  as well as MAP3K8 COT, can stimulate the MAPK pathway despite BRAF inhibition	
+29973561	The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition	
+29973561	CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors	
+29973561	Elevated expression of alternative RAF isoforms ARAF and CRAF  as well as MAP3K8 COT, can stimulate the MAPK pathway despite BRAF inhibition	
+29973561	The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition	

@@ -1,0 +1,578 @@
+[
+  {
+    "metatada": [
+      {
+        "Paper_title": "Current Molecular-Targeted Therapies in NSCLC and Their Mechanism of Resistance"
+      },
+      {
+        "Author": "Zachary Schrank, Gagan Chhabra, Leo Lin, Tsatsral Iderzorig, Chike Osude, Nabiha Khan ID , Adijan Kuckovic, Sanjana Singh ID , Rachel J. Miller and Neelu Puri * "
+      },
+      {
+        "Abstract": "Abstract: Lung cancer is treated with many conventional therapies, such as surgery, radiation, and chemotherapy. However, these therapies have multiple undesirable side effects. To bypass the side effects elicited by these conventional treatments, molecularly-targeted therapies are currently in use or under development. Current molecularly-targeted therapies effectively target speciﬁc biomarkers, which are commonly overexpressed in lung cancers and can cause increased tumorigenicity. Unfortunately, several molecularly-targeted therapies are associated with initial dramatic responses followed by acquired resistance due to spontaneous mutations or activation of signaling pathways. Acquired resistance to molecularly targeted therapies presents a major clinical challenge in the treatment of lung cancer. Therefore, to address this clinical challenge and to improve lung cancer patient prognosis, we need to understand the mechanism of acquired resistance to current therapies and develop additional novel therapies. This review concentrates on various lung cancer biomarkers, including EGFR, ALK, and BRAF, as well as their potential mechanisms of drug resistance. "
+      },
+      {
+        "Keywords": " lung cancer; molecularly-targeted therapies; TKI; resistance; inhibitor "
+      }
+    ]
+  },
+  {
+    "body_text": [
+      {
+        "section1": [
+          {
+            "section_title": "1. Introduction"
+          },
+          {
+            "paragraph1": "Lung cancer is known to cause more deaths than breast, prostate, and colon cancers combined,accounting for about 25% of all cancer deaths. The 5-year survival rate for all lung cancer patients is onlyabout 18%, and roughly 85% of lung cancer cases are non-small cell lung cancer (NSCLC) [1]. In 2018,234,030 lung cancer cases and 154,050 deaths are anticipated [2]. Due to both its high mortality andfrequency in both sexes, developing novel and effective treatments for NSCLC is of major importance.Common treatments for early-stage NSCLC include surgical intervention, chemotherapy, and radiationtherapy, all of which elicit undesirable side effects. Currently, molecularly-targeted therapies havebecome a research focal point due to their speciﬁcity to cancer cells and minimal adverse effects incomparison to conventional treatments [3]. A number of molecularly-targeted therapies focus onvarious receptor tyrosine kinases (RTKs) involved in cellular growth and survival.RTKs are commonly mutated in NSCLC, leading to ampliﬁcation of RTK signaling and activationof downstream and alternative signaling pathways which often converge on common downstreamsignaling effectors that elicit tumorigenesis [4]. Various RTKs, such as epidermal growth factor receptor(EGFR), hepatocyte growth factor receptor (HGFR/c-Met), and anaplastic lymphoma kinase (ALK),have been targeted for the development of therapeutics, as these are found to be often mutated inNSCLC patients [5]. v-Raf murine sarcoma viral oncogene homolog B1 (BRAF) is another potentialtarget for advanced NSCLC treatment, since mutations in BRAF have been shown to play a role in"
+          },
+          {
+            "paragraph2": "Cancers 2018, 10, 224; doi:10.3390/cancers10070224www.mdpi.com/journal/cancers"
+          },
+          {
+            "paragraph3": "Cancers 2018, 10, 2242 of 17"
+          },
+          {
+            "paragraph4": "tumorigenesis in NSCLC [6]. When mutated, these growth factor receptors could cause upregulationand ampliﬁcation of various downstream signaling pathways, including the MAP kinase, PI3K/AKT,and mTOR pathways. These pathways are responsible for cell survival, proliferation, migration,and angiogenesis of cancerous cells [7].Many of the current molecular therapies that target RTKs utilize tyrosine kinase inhibitors (TKIs),which act by binding to RTKs and inhibiting their respective signaling cascades, leading to inhibitionof signaling pathways that would otherwise induce cell growth and proliferation (see Table 1) [5].However, prolonged treatment with TKIs often results in the development of acquired drug resistancethat limits the duration of their clinical beneﬁt. A potential explanation for acquired TKI resistance maybe due to acquisition of RTK mutations, epithelial-mesenchymal transition (EMT), and the activationof alternative signaling pathways [8]. Overcoming this resistance presents a challenge that has becomean area of interest for many researchers. In this review, we summarize and discuss various biomarkersin NSCLC currently being targeted for therapy, their modes of resistance, and potential treatmentoptions intended to delay or prevent resistance from occurring."
+          },
+          {
+            "paragraph5": "Table 1. Current molecularly-targeted therapeutics, their associated targets, and acquired mutationsconferring resistance."
+          },
+          {
+            "paragraph6": "InhibitorTargetAcquired Mutations ConferringResistanceReferences"
+          },
+          {
+            "paragraph7": "ErlotinibEGFRT790M, D761Y, T854A, L747S[9–11]GeﬁtinibEGFRT790M, D761Y, T854A, L747S[9–11]AfatinibEGFR, HER2T790M[12,13]Osimertinib (AZD9291)EGFRC797, G796D[14–20]RociletinibEGFRC797[21,22]EAI045EGFRUnder Investigation[20,23]CrizotinibALK, MET, ROS1L1196M, C1156Y, F1174L, F1174V T1151K[24–30]TAE684ALKG1123S, G1123SD[31,32]CeritinibALKG1202R, F1174C/V, G1123S, T1151K[33–37]AlectinibALKG1202R, I1171T/N/S, V1180L[34,38–42]Brigatinib (AP26113)ALK, ROS1Under Investigation[34,43]Lorlatinib (PF-06463922)ALK, ROS1L1198F[44,45]Entrectinib (RxDx-101)ALK, ROS1, NTRK1–3NTRK1, NTRK2, NTRK3[46]Ensartinib (X-398)ALK, ROS1, MET, SLKUnder Investigation[47]DabrafenibBRAFG12D KRAS[48,49]VemurafenibBRAFAlternate isoforms of RAF proteins[50–52]TrametinibMEKUnder Investigation[52,53]"
+          }
+        ]
+      },
+      {
+        "section1": [
+          {
+            "section_title": "2. EGFR"
+          },
+          {
+            "paragraph1": "Epidermal growth factor receptor (EGFR) is a transmembrane growth factor receptor whichplays an important role in regulating cell proliferation, survival, and growth [54]. This receptor isusually present in its inactive form as a monomer. Upon binding to epidermal growth factor (EGF),EGFR dimerizes and autophosphorylates, leading to activation of downstream intracellular signalingcascades such as RAS-RAF-MEK-ERK and PI3K-AKT-mTOR (Figure 1) [24]. Mutations in EGFR thatresult in its constitutive activation are believed to be an important contributor to the tumorigenesis ofmany cancer types, including lung cancer. It has been reported that sensitizing mutations in the EGFRtyrosine kinase (TK) domain at exons 18–21 occur in about 15–18% of NSCLC patients, among whichthe L858R point mutation in exon 21 and a deletion in exon 19 (residues 747–750) constitute about 40%and 45% of EGFR mutations, respectively [55]. Exon 20 insertions account for roughly 9% of activatingEGFR mutations, and prognosis for NSCLC patients with exon 20 insertion mutant EGFR is generallyquite poor [56]."
+          },
+          {
+            "paragraph2": "Cancers 2018, 10, 2243 of 17"
+          },
+          {
+            "paragraph3": "Cancers 2017, 9, x FOR PEER REVIEW  3 of 17 "
+          },
+          {
+            "paragraph4": " "
+          },
+          {
+            "paragraph5": " "
+          },
+          {
+            "paragraph6": "Figure 1. Mechanisms of resistance to molecularly targeted therapies in non-small cell lung cancer (NSCLC). Phosphorylation of receptor tyrosine kinases such as ALK, c-MET, and EGFR lead to activation of downstream signaling pathways that are responsible for cell proliferation, survival, and angiogenesis. Receptor tyrosine kinase inhibitors (TKIs) inhibit receptor activation. However, due to mutations listed in the figure and activation of alternative signaling pathways, tumor cells acquire resistance against these TKIs. Activation of PI3K/mTOR, Wnt, and RAS-MAPK pathways may cause resistance to TKIs. Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition. "
+          },
+          {
+            "paragraph7": "Tyrosine kinase inhibitors (TKIs) have been developed to inhibit mutated EGFR and its constitutive activation. The first generation of EGFR TKIs includes erlotinib and gefitinib. They reduce aberrant EGFR signaling via reversible inhibition of the ATP-binding pocket in the EGFR kinase domain. Unfortunately, the development of TKI resistance is common after prolonged use of these EGFR TKIs [9]. One major mechanism for the acquired resistance to EGFR TKIs is the development of the T790M secondary mutation within the EGFR kinase domain. The bulkier methionine residue at position 790 sterically hinders its interaction with TKIs and increases affinity for ATP, thus reducing inhibitor binding to the EGFR kinase domain while preserving catalytic activity [10]. Nevertheless, the T790M ‘gatekeeper’ mutation only attributes to 50% of all acquired resistance [57]. Therefore, a significant portion of acquired resistance arises from other mechanisms, such as upregulation of the mTOR pathway or EMT [58,59]. Additional secondary mutations such as D761Y, T854A, and L747S (Figure 1) are reported to arise subsequently to the EGFR TKI sensitizing L858R mutation and cause resistance [11]. In cell lines which are intrinsically resistant due to the presence of mutated EGFR, increased activity of TGF-β, which is often produced during an inflammatory response, has been shown to initiate transition to mesenchymal-like cell morphology accompanied by increased mobility, invasiveness, and resistance to erlotinib [60]. Inflammation also induces IL-6 secretion, which further bolsters resistance to erlotinib. It has been proposed that IL-6 upregulation corresponds with increased levels of Survivin, BCL-X1, and BCL-2 in the erlotinib-resistant cells, which suggests that "
+          },
+          {
+            "Figure": "29973561_page2_202.jpg",
+            "Figure_title": "Figure 1. Mechanisms of resistance to molecularly targeted therapies in non-small cell lung cancer (NSCLC). Phosphorylation of receptor tyrosine kinases such as ALK, c-MET, and EGFR lead to activation of downstream signaling pathways that are responsible for cell proliferation, survival, and angiogenesis. Receptor tyrosine kinase inhibitors (TKIs) inhibit receptor activation. However, due to mutations listed in the ﬁgure and activation of alternative signaling pathways, tumor cells acquire resistance against these TKIs. Activation of PI3K/mTOR, Wnt, and RAS-MAPK pathways may cause resistance to TKIs. Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition. "
+          },
+          {
+            "paragraph8": "Tyrosine kinase inhibitors (TKIs) have been developed to inhibit mutated EGFR and its constitutiveactivation. The ﬁrst generation of EGFR TKIs includes erlotinib and geﬁtinib. They reduce aberrantEGFR signaling via reversible inhibition of the ATP-binding pocket in the EGFR kinase domain.Unfortunately, the development of TKI resistance is common after prolonged use of these EGFRTKIs [9]. One major mechanism for the acquired resistance to EGFR TKIs is the development ofthe T790M secondary mutation within the EGFR kinase domain. The bulkier methionine residue atposition 790 sterically hinders its interaction with TKIs and increases afﬁnity for ATP, thus reducinginhibitor binding to the EGFR kinase domain while preserving catalytic activity [10]. Nevertheless,the T790M ‘gatekeeper’ mutation only attributes to 50% of all acquired resistance [57]. Therefore,a signiﬁcant portion of acquired resistance arises from other mechanisms, such as upregulation of themTOR pathway or EMT [58,59]. Additional secondary mutations such as D761Y, T854A, and L747S(Figure 1) are reported to arise subsequently to the EGFR TKI sensitizing L858R mutation and causeresistance [11].In cell lines which are intrinsically resistant due to the presence of mutated EGFR, increasedactivity of TGF-β, which is often produced during an inﬂammatory response, has been shown to initiatetransition to mesenchymal-like cell morphology accompanied by increased mobility, invasiveness,and resistance to erlotinib [60]. Inﬂammation also induces IL-6 secretion, which further bolsters"
+          },
+          {
+            "paragraph9": "Cancers 2018, 10, 2244 of 17"
+          },
+          {
+            "paragraph10": "resistance to erlotinib. It has been proposed that IL-6 upregulation corresponds with increased levels ofSurvivin, BCL-X1, and BCL-2 in the erlotinib-resistant cells, which suggests that IL-6 somehow protectscells from apoptosis [60,61]. Another study demonstrated PIK3CA mutations in 5% of lung cancerpatients having EGFR mutations with acquired resistance. These mutations are reported to conferresistance by activating downstream targets such as AKT [62]. Our recent studies indicate that theactivation of alternative signaling pathways, such as PI3K/mTOR and Wnt, may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however, in cell lines with mutant EGFR,there is activation of the mTOR pathway. Activation of all these alternative pathways may contributeto EGFR and c-MET signaling, resulting in acquired resistance [63,64]. It has been shown that activeβ-catenin, which is a central downstream effector in the Wnt signaling cascade, is up-regulated inerlotinib-resistant cells, along with other proteins of the Wnt pathway. Furthermore, Wnt can causeactivation of EGFR and MAPK signaling via the Wnt/Fz/LRP pathway [64,65].It has also been found that the hedgehog (Hh) signaling pathway is inappropriately activatedin EGFR TKI resistant NSCLC cells, though silenced in EGFR TKI sensitive cells, implicating Hhactivation in the development of EGFR TKI resistance via the induction of EMT and upregulationof the stem cell marker ABCG2 (Figure 2) [66]. The Hh pathway is a coordinator of many cellularprocesses, such as proliferation and differentiation, and it cooperates with the EGFR pathway duringembryonic development of mammals to coordinate stem cell proliferation [67]. Abrogation of thispathway resulted in increased sensitivity of resistant NSCLC cells to EGFR TKI treatment, as well asdecreased expression of ABCG2, further implicating its role in acquired resistance [66]. It has beenshown that the G776YVMA mutation in human epidermal growth factor receptor 2 (HER2) allows forthe phosphorylation of EGFR receptors even in the presence of EGFR TKIs [68]. The knockdownof HER2 restored sensitivity to EGFR TKIs in H1781 lung cancer cells which have the G776YVMA"
+          },
+          {
+            "paragraph11": "mutation, suggesting that inhibition of HER2 may prove a promising target to bypass EGFR TKIresistance [68]. Inappropriate ampliﬁcation of MET, a gene that codes for an epithelial RTK thatactivates signaling of the MAPK, PI3K, and SRC pathways upon binding by its ligand, hepatocytegrowth factor (HGF) [69], stimulates the AKT pathway and is also a major contributor to EGFR TKIsecondary resistance (Figure 1). MET ampliﬁcation causes overexpression of the MET receptor andactivation of its downstream signaling pathways. In fact, MET gene ampliﬁcation is shown to beone of the most relevant mechanisms responsible for the acquired resistance against EGFR TKIs(Figure 2) [70]. Crosstalk between c-MET and EGFR signaling pathways has also been observed [71,72].Puri et al. have demonstrated that TKIs against c-MET and EGFR have a synergistic inhibitoryeffect on proliferation [72]. Furthermore, a recent study has also identiﬁed c-MET activation andupregulation of its associated ligand, HGF, as mediators of resistance to TKIs in VEGFR-mutantNSCLC. In this study, activation of the c-MET pathway also resulted in the formation of tortuousblood vessels within associated tumors [73]. More speciﬁcally, MET ampliﬁcation has been shown topromote geﬁtinib resistance by activating PI3K through ERBB3 (HER3) despite EGFR inhibition viageﬁtinib [70]. Another study found inhibition of c-MET in MET-ampliﬁed NSCLC led to activationof the EGFR pathway [74]. Thus, EGFR/c-MET combination therapy could be a possible strategy toovercome c-MET resistance [75]. A recent study conducted by our laboratory found upregulation ofmTOR and Wnt signaling proteins in c-MET/EGFR resistant NSCLC cell lines, implying the role ofalternative cell signaling pathways in TKI resistance [63]. This suggests that a combination of Wnt andmTOR inhibitors with c-MET or EGFR inhibitors may improve the prognosis in NSCLC. However,further clinical trials are needed to conﬁrm these results. Insulin-like growth factor 1 receptor (IGF-1R)is another RTK whose activation could contribute to acquired EGFR TKI resistance. IGF-1R has thepotential to dimerize with EGFR after treatment with erlotinib, transducing signals to the AKT andMAPK signaling pathways that would otherwise be silenced by erlotinib (Figure 1). Inhibition ofIGF-1R has been shown to enhance the effects of ﬁrst generation EGFR TKIs, providing a possibleroute to overcome resistance [76]."
+          },
+          {
+            "paragraph12": "Cancers 2018, 10, 2245 of 17Cancers 2017, 9, x FOR PEER REVIEW  5 of 17 "
+          },
+          {
+            "paragraph13": " "
+          },
+          {
+            "paragraph14": " "
+          },
+          {
+            "paragraph15": "Figure 2. EMT, MET amplification, and IGF-1R confer resistance to EGFR TKIs. Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition. MET amplification allows phosphorylation of EGFR and activation of downstream signaling. Activation of the Hedgehog signaling pathway and Wnt signaling pathways promote EMT, which may confer resistance to EGFR TKIs. "
+          },
+          {
+            "paragraph16": "Despite the development of resistance, first generation TKIs like erlotinib and gefitinib are still employed by physicians as a first line approach against lung cancer. Multiple recent studies suggest that the effectiveness of these drugs may be bolstered by combinatorial treatment with the diabetes drug Metformin. An earlier clinical observation study demonstrated that the use of Metformin in type 2 diabetes patients correlated with a lower risk of cancer, in general (hazard ratio 0.90), compared with use of sulfonylurea derivatives, which are also used for the treatment of diabetes [77]. At first, it was unknown whether Metformin truly had anticancer properties or if sulfonylurea derivatives simply increased the risk of cancer [77]. However, evidence strongly suggests that Metformin does indeed have anticancer properties and may be a viable cancer preventative and treatment supplement [61,78,79]. Metformin interacts synergistically with TKIs like erlotinib and gefitinib, and Metformin alone has been shown to reduce tumor size in xenografts and re-sensitize resistant cells to TKI treatments [78]. Metformin decreases IL-6 signaling, reverses EMT, and decreases activation of STAT3 and AKT [61,78]. Metformin also appears to activate JNK/p38 MAPK pathway and GADD153, which induces apoptosis and decreases proliferation in lung cancer cells [79]. Furthermore, Metformin has been shown to suppress TGF-β and bleomycin-induced pulmonary fibrosis exacerbation associated with gefitinib treatment via the inhibition of the TGF-β pathway [80]. Clinical trials are currently being done to study Metformin in combinatory treatments with an assortment of molecularly targeted therapies, including EGFR inhibitors, as well as its effect on overall survival and treatment-related toxicity in advanced stage non-small cell lung cancer patients. The second-generation EGFR TKI, afatinib, is an irreversible inhibitor of EGFR. It was shown to have an EC50 against EGFR with the T790M mutation at a concentration of 9 nM [12], suggesting its potential to overcome TKI resistance due to the T790M mutation. In contrast to erlotinib and gefitinib, "
+          },
+          {
+            "Figure": "29973561_page4_305.jpg",
+            "Figure_title": "Figure 2. EMT, MET ampliﬁcation, and IGF-1R confer resistance to EGFR TKIs. Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition. MET ampliﬁcation allows phosphorylation of EGFR and activation of downstream signaling. Activation of the Hedgehog signaling pathway and Wnt signaling pathways promote EMT, which may confer resistance to EGFR TKIs. "
+          },
+          {
+            "paragraph17": "Despite the development of resistance, ﬁrst generation TKIs like erlotinib and geﬁtinib are stillemployed by physicians as a ﬁrst line approach against lung cancer. Multiple recent studies suggestthat the effectiveness of these drugs may be bolstered by combinatorial treatment with the diabetesdrug Metformin. An earlier clinical observation study demonstrated that the use of Metformin in type2 diabetes patients correlated with a lower risk of cancer, in general (hazard ratio 0.90), compared withuse of sulfonylurea derivatives, which are also used for the treatment of diabetes [77]. At ﬁrst, it wasunknown whether Metformin truly had anticancer properties or if sulfonylurea derivatives simplyincreased the risk of cancer [77]. However, evidence strongly suggests that Metformin does indeed haveanticancer properties and may be a viable cancer preventative and treatment supplement [61,78,79].Metformin interacts synergistically with TKIs like erlotinib and geﬁtinib, and Metformin alone hasbeen shown to reduce tumor size in xenografts and re-sensitize resistant cells to TKI treatments [78].Metformin decreases IL-6 signaling, reverses EMT, and decreases activation of STAT3 and AKT [61,78].Metformin also appears to activate JNK/p38 MAPK pathway and GADD153, which induces apoptosisand decreases proliferation in lung cancer cells [79]. Furthermore, Metformin has been shown tosuppress TGF-β and bleomycin-induced pulmonary ﬁbrosis exacerbation associated with geﬁtinibtreatment via the inhibition of the TGF-β pathway [80]. Clinical trials are currently being done to studyMetformin in combinatory treatments with an assortment of molecularly targeted therapies, includingEGFR inhibitors, as well as its effect on overall survival and treatment-related toxicity in advancedstage non-small cell lung cancer patients."
+          },
+          {
+            "paragraph18": "Cancers 2018, 10, 2246 of 17"
+          },
+          {
+            "paragraph19": "The second-generation EGFR TKI, afatinib, is an irreversible inhibitor of EGFR. It was shown tohave an EC50 against EGFR with the T790M mutation at a concentration of 9 nM [12], suggesting itspotential to overcome TKI resistance due to the T790M mutation. In contrast to erlotinib and geﬁtinib,which solely bind to the ATP-binding site of EGFR, afatinib also forms covalent bonds with cysteine 797and the cysteine residues of HER2 and ErbB-4, thus further inhibiting phosphorylation of EGFR [13].In a Phase I study performed in patients with NSCLC, 12 patients were treated with afatinib at dosagesof 20–50 mg per day. Six of the 12 patients had tumor size reductions; three achieved durable stabledisease, including one with EGFR exon 19 and T790M mutations [12]. However, treatment with afatinibhas been shown to phosphorylate STAT3 at tyrosine 705 and cause an increase in levels of RANTESmRNA. Activation of the STAT3 pathway has been implicated in development of acquired resistancein both erlotinib and geﬁtinib treatment, and thus resistance to afatinib can arise via this pathway.Treatment of afatinib in combination with a STAT3 inhibitor signiﬁcantly inhibits growth, providing aroute to overcome afatinib resistance in TKI-resistant cell lines [81]. Third generation TKIs have beendesigned to target both EGFR with activating mutations and T790M resistance mutation in NSCLCpatients. Recently, the FDA has approved osimertinib (Tagrisso) or AZD9291, a third-generation EGFRTKI, as a breakthrough treatment for NSCLC patients whose tumors have a T790M mutation and whosedisease has worsened after treatment with other EGFR inhibitors. Phase 1 clinical trials of osimertinibdemonstrated a response rate of 61% and a disease control rate of 95% in advanced lung cancer patientswith prevailing cancer progression after EGFR TKI treatment [14]. In April 2018, the FDA approvedthe use of osimertinib (AstraZeneca) as a ﬁrst-line treatment for metastatic NSCLC patients with L858Rmutations in exon 21 or deletions in exon 19 [15]. A recent Phase III FLAURA trial demonstrated thesuperiority of osimertinib over ﬁrst-generation EGFR inhibitors geﬁtinib and erlotinib as a ﬁrst-linetreatment for EGFR-mutated NSCLC. Previously untreated EGFR-mutant NSCLC patients (556) fromAsian populations were selected randomly to receive erlotinib, geﬁtnib, or osimertinib. Patientstreated with osimertinib had a progression-free survival of 18.9 months compared to 10.2 months forpatients treated with geﬁtinib or erlotinib. Median duration of response was also signiﬁcantly greaterin the osimertinib-treated patients compared to ﬁrst-generation TKI treatment (17.2 vs. 8.5 months,respectively) [16]. Although mutant EGFR NSCLC patients bearing exon 20 insertions are generallyunresponsive to ﬁrst-line TKI therapy, recent studies suggest that osimertinib may prove effective asa therapy for patients with these activating mutations. Osimertinib was shown to inhibit growth ofNSCLC cells bearing the most prevalent exon 20 insertion mutations, as well as inhibit tumor growthin tumor xenograft models bearing exon 20 insertions [17]. However, resistance to this TKI has alreadybeen reported, arising via mutations in the C797 EGFR codon and EGFR G796D, as well as ampliﬁedHER2 and MET signaling [18–20]. Treatment with selumetinib, a RAS-MAPK pathway inhibitor,in combination with osimertinib seemed to curb this resistance [82]. A recent study demonstratedthat combinatorial treatment of a c-Met and ERBB inhibitor (capmatinib and afatinib) abolishedtumor growth in NSCLC brain metastasis mouse models with MET ampliﬁcation conferring acquiredresistance to osimertinib [83]. Another study demonstrated high levels of MET ampliﬁcation seen intumor biopsies of a mutant T790M EGFR NSCLC patient following osimertinib treatment. Treatmentwith the MET inhibitor crizotinib conferred transient symptomatic improvement of this patient,suggesting MET inhibition may be a potential treatment option for patients progressing on osimertinibtreatment with MET ampliﬁcation [84]. Another third generation TKI, rociletinib, was designed toinhibit the activating EGFR mutation and the T790M resistance mutation, with a focus on sparingwild-type EGFR. This design was shown to be effective in preclinical models in which rociletinibwas found to have signiﬁcantly less activity against wild-type EGFR than the early-generation TKIscurrently being used clinically, as well as AZD9291 [21]. However, due to the adverse effects andlimited response rates following treatment with rociletinib, the FDA has currently not approved thisdrug for treatment of NSCLC patients [22].A fourth generation TKI, EAI045, has been developed as a novel EGFR inhibitor to overcome bothC797 and T790M mutations that confer resistance to third generation inhibitors. EAI045, in contrast to"
+          },
+          {
+            "paragraph20": "Cancers 2018, 10, 2247 of 17"
+          },
+          {
+            "paragraph21": "other EGFR TKIs, acts via allosteric inhibition rather than competitive inhibition of the ATP-bindingsite. The growth inhibitory activity of EAI045 increases when combined with cetuximab, an EGFRinhibitor that prevents EGFR from dimerizing. A combination of EAI045 and cetuximab demonstratedsigniﬁcant tumor growth inhibition in mouse models carrying the T790M mutation, whereastreatment with EAI045 alone failed to exhibit any decrease in tumor growth.Additionally,since dimerization-defective/independent mutants were markedly more sensitive to EAI045, it ishypothesized that EAI045 acts upon a single component of the EGFR dimer [20,23]. Thus, EAI045treatment appears to be a promising therapeutic strategy in NSCLC patients with resistance to ﬁrst,second, and third generation EGFR TKIs. Patients being treated with EGFR inhibitors will requirecontinual assessment of progression of lung cancer in order to study how these patients becomeresistant to therapy and to develop strategies to prevent resistance."
+          }
+        ]
+      },
+      {
+        "section1": [
+          {
+            "section_title": "3. ALK"
+          },
+          {
+            "paragraph1": "The anaplastic lymphoma kinase (ALK) is a receptor tyrosine kinase encoded by the ALK genelocalized on chromosome 2 and is often associated with lung cancer when mutated. This kinaseis typically expressed in the central and peripheral nervous systems [85,86].ALK is reportedto regulate several different pathways involved in cellular proliferation and survival, such asPI3K-AKT-mTOR, RAS-RAF-MEK-ERK, and the JAK-STAT pathway, once it dimerizes and is activatedby autophosphorylation after binding with its ligands, pleiotrophin (PTN), and midkine (MK) [87,88](Figure 1). In lung cancer patients, ALK gene ampliﬁcation, mutation, and rearrangement is known tobe associated with tumor development [88–90], and around 5% of NSCLC cases are diagnosed with anALK gene rearrangement [90].Crizotinib, a ﬁrst generation ALK TKI, has been approved by the FDA for treating locally advancedor metastatic ALK-positive NSCLC tumors by competitively binding to the ATP-binding site [25].Due to acquired resistance to crizotinib, the efﬁcacy of this TKI is limited to approximately 1 year.Secondary mutations in the ALK gene are considered to be the most frequent mechanisms mediatingresistance to ALK inhibitors, such as crizotinib. Point mutations such as L1196M, C1156Y, F1174L,and F1174V (Figure 1) in the ALK kinase domain have been found in NSCLC patients treated withcrizotinib. These mutations render crizotinib less effective by decreasing ligand afﬁnity for its activesite [24,26,27]. A recent study reported that the F1174V mutation may induce secondary crizotinibresistance via an alteration in secondary structure of the protein, resulting in a conformational changewithin the ALK kinase domain and thus reducing crizotinib afﬁnity and efﬁcacy [28]. The gatekeepermutation L1196M in ALK kinase domain confers resistance to crizotinib [24,29] by concurrentlyincreasing and decreasing the binding afﬁnities of ATP and ALK inhibitors, respectively. The othersecondary mutation C1156Y causes resistance by inducing a marked allosteric effect on the ATP-bindingsite of the ALK kinase domain [30]. Another study reported the presence of L1196M and G1269Apoint mutations of the crizotinib target site in four out of eleven patients treated with crizotinib [27].Katayama et al. identiﬁed new mutations such as G1202R, S1206Y, and 1151Tins (Figure 1) in four ofeighteen ALK-positive NSCLC patients who had progressed on crizotinib [26]. Additionally, in parallelwith mutations, copy number gain of the ALK gene rearrangement has been shown as a potentialmechanism of resistance to crizotinib. The copy number gain was observed due to more copies ofthe ALK rearrangement per cell and an increase in cells displaying the rearrangement pattern in thepatients treated with crizotinib [26,27].Recently, Wilson et al. conducted a large-scale functional genomics study using a genome-scalelentiviral expression library of human open reading frame (ORF) to identify novel genes conferringresistance to ALK inhibitors, crizotinib, and TAE684 (a second-generation ALK inhibitor). This studydemonstrated that the neuregulin-1 and P2Y purinergic G-protein coupled receptor proteins mediateresistance to the ALK inhibitors, TAE684 and crizotinib, in lung cancer [31]. Some other studiesfocusing on the mechanism of resistance to crizotinib have shown involvement of mutations in EGFRand KRAS [27], activation of the ErbB family through phosphorylation [26], EMT [91], activation of the"
+          },
+          {
+            "paragraph2": "Cancers 2018, 10, 2248 of 17"
+          },
+          {
+            "paragraph3": "insulin-like growth factor 1 receptor (IGF-1R) pathway [92], KIT ampliﬁcation [26], and autophagy [93].A recent study also performed a multi-phospho-RTK antibody array to screen for secondary RTKinvolvement in ALK inhibitor resistance within two crizotinib-resistant and one TAE684-resistantcell line, further implicating EGFR, IGF-1R, and HER, as well as MET, in acquired ALK inhibitorresistance [94].Ceritinib, alectinib, and brigatinib (AP26113) are amongst the second generation of ALK TKIswhich have been developed to overcome resistance to ﬁrst generation TKIs conferred by ALK kinasedomain mutations [33,34]. Brigatinib has shown efﬁcacy in ﬁrst generation TKI-resistant ALK mutantscarrying C1156Y, I1171S/T, V1180L, L1196M, L1152R/P, E1210K, and G1269A mutations, and it hasdemonstrated therapeutic potency following crizotinib treatment [43]. Metastasis into the centralnervous system is a common complication of NSCLC patients carrying mutant ALK undergoingtreatment with crizotinib, and second generation TKIs, namely alectinib, have demonstratedtherapeutic activity in treating central nervous system metastasis in ALK-positive NSCLC patients [95].Furthermore, alectinib was recently shown to be more effective and less toxic than crizotinib in treatingALK-positive NSCLC as a ﬁrst line therapy, demonstrating a 12-month event-free survival rate of 68.4%in comparison to 48.7% with crizotinib [38]. However, there are other mutations which have arisenthat limit these next-generation inhibitors, as well. As with the ﬁrst generation of TKIs, speciﬁc ALKgene mutations confer resistance to the various second generation TKIs, such as G1202R, I1171T/N/S,and V1180L for alectinib, and G1202R and F1174C/V (Figure 1) for ceritinib [35,39–42]. Additionally,several studies have shown involvement of hepatocyte growth factor (HGF)/MET signaling pathwayactivation in the acquired resistance to alectinib [96,97].A few other studies have reported that EGFR ligands [98] and hypoxia-induced EMT conferresistance to alectinib [91]. It has been shown that HGF, a ligand of MET, induces resistance to alectinib,but not to crizotinib, via activation of MET signaling in NSCLC cell lines [97,98]. Recently, Toyokawaet al. reported a novel ALK G1123S mutation in ALK-positive NSCLC patients acquiring resistance toceritinib [36]. Another in vitro study on a human-derived neuroblastoma cell line (SH-SY5Y), withG1123S or G1123D mutations at codon 1123, showed resistance to an ALK inhibitor, TAE684 [32].A novel T1151K mutation has also been described in a patient that demonstrated cancer progressionfollowing treatment with crizotinib and ceritinib [37]. These mutations could either sterically blockATP binding and/or alter the glycine-rich loop dynamics, perturbing interactions with ALK inhibitorsthat require a speciﬁc conformation of the loop for binding [32]. Additionally, one recent study showedreactivation of the RAS-MAPK pathway (Figure 1) as a novel mechanism of acquired resistance inALK-positive lung cancers [99]. This study also identiﬁes new potential biomarkers of ALK-inhibitorresistance and provides a potential explanation for the role of the upstream EML4 (echinodermmicrotubule-associated protein like 4) fusion partner in driving chronic ALK signaling. This studyalso demonstrates that a combination of both ALK and the RAS-MAPK component MEK inhibitorscould be a potential approach to overcome resistance and improve the prognosis of ALK-positive lungcancer [99].Third-generation ALK inhibitors have been under development to overcome second-generationinhibitor resistance in ALK-positive NSCLC patients.Amongst these molecules are lorlatinib(PF-06463922), entrectinib (RxDx-101), and ensartinib (X-398). Lorlatinib serves as an ATP-competitiveTKI for both ALK and ROS1, an RTK in the insulin receptor family with striking similarity to ALKthat is overexpressed in several cancer types, but absent in normal lung tissue. ROS1 rearrangementis present in 1–2% of NSCLC cases, and detection of these rearrangements is critical in selectingappropriate inhibitor-based treatment for NSCLC [100]. Lorlatinib has also demonstrated efﬁcacy intreating ALK-positive NSCLC metastases to the central nervous system. As part of Phase 1–2 clinicaltrials, 54 ALK or ROS1-mutation positive patients were treated with lorlatinib, demonstrating anoverall response rate of 50%. Common adverse effects were limited to hypercholesterolemia andperipheral edema [44]. Entrectinib serves a three-fold role as an inhibitor of ALK and ROS1, as wellas NTRK1–3 fusion proteins, which are receptor tyrosine kinases that control synaptic strength and"
+          },
+          {
+            "paragraph4": "Cancers 2018, 10, 2249 of 17"
+          },
+          {
+            "paragraph5": "plasticity in mammals. It has demonstrated therapeutic potential in a wide array of cancer typesand is currently undergoing Phase 1–2 clinical trials [46]. Ensartinib is another novel ALK inhibitorundergoing clinical trials. In Phase 1–2 clinical trials, 80 NSCLC patients carrying the ALK mutationwere given 225 mg of ensartinib daily for 28 days. Partial response rate for evaluable patients was58%, and 20% of patients reached stable disease. In patients who had received crizotinib treatmentpreviously, a partial response of 64% was obtained, with 27% of patients reaching stable disease [47].However, as with the other generations of TKIs, novel mutations quickly arise that confer resistance tothese third generation inhibitors after prolonged treatment.Resistance to lorlatinib has recently been identiﬁed to occur through a L1198F mutation.This mutation confers resistance via steric interference at the active site, preventing drug binding.Interestingly, however, this mutation counteracts the effect of the C1156Y mutation that elicitsresistance to crizotinib, thus resensitizing the cancer to crizotinib treatment [45]. Studies regardingthe mechanisms of resistance against entrectinib in NSCLC are limited. However, mutations thatresult in drug resistance seem to be localized to the NTRK1–3 catalytic domains [101]. Another studyidentiﬁed a mutation in NTRK3 that likewise resulted in drug resistance in mammary analoguesecretory carcinoma [102]. Such mutations may have a similar effect in NSCLC, as well. Mechanisms ofresistance regarding ensartinib remain under thorough investigation. Continued research is requiredto elucidate the mechanism of acquired resistance for current small molecule inhibitors targeting ALK,as well as to develop effective therapies to bypass this resistance, possibly by targeting secondaryRTK involvement."
+          }
+        ]
+      },
+      {
+        "section1": [
+          {
+            "section_title": "4. BRAF"
+          },
+          {
+            "paragraph1": "BRAF (v-Raf murine sarcoma viral oncogene homolog B1) is a member of the RAFserine/threonine protein kinases family. BRAF encodes for a RAF kinase that signals downstreamof RAS to activate the MAPK pathway, which causes uncontrolled growth and differentiation uponmutation [103]. BRAF is the most commonly mutated gene in melanoma; however, BRAF mutationshave also been shown to be associated with NSCLC with a frequency of approximately 2–3% of cases.In melanoma, valine 600Glu (V600E) mutation within exon 15 of the kinase domain constitutes morethan 90% of mutations in melanoma. In lung cancer, the V600E mutation is the most common mutation,yet they also occur at other positions within the kinase domain. A study reported BRAF mutations in18 (3%) out of 697 patients with lung adenocarcinoma. V600E BRAF mutation was observed in 50% ofthese 18 patients, while G469A and D594G were found in 39% and 11%, respectively [104]. Anotherrecent study reported seven out of 273 NSCLC cases (2.6%) with BRAF mutations, of which 58%(four out of seven) were having V600E, while others were reported with K601N, L597Q, and G469Vmutations [105]. A V600 mutation on exon 15 totals 50% of all BRAF mutants, while non-V600 BRAFmutations compose the remaining 50% [104].Recently, promising results from a Phase 2 clinical study with dabrafenib, a BRAF inhibitor, hasshown efﬁcacy in the treatment of advanced NSCLC patients with V600E BRAF mutation (Figure 1) [48].However, another study has found acquired resistance to dabrafenib in a patient after 8 months oftreatment. The primary mechanism responsible for this acquired resistance to dabrafenib in this patienthas been reported to be a G12D mutation in KRAS (Figure 1) [49]. Subsequent studies need to becarried out to further understand the therapeutic potential of BRAF inhibitors for the treatment ofNSCLC patients.Mutant BRAF in NSCLC is known to display resistance towards current inhibitors after prolongedtreatment. A BRAF oral inhibitor, vemurafenib, is effective in the treatment of advanced stagesof melanoma with the V600E mutation (Figure 1). However, in NSCLC, vemurafenib provideslittle to no response. The research conducted on inhibitors of mutant BRAF in NSCLC is limited;however, extensive work has been done on elucidating mechanisms of resistance to BRAF inhibitorsin melanoma and may provide parallels to mechanisms in lung cancer. One study has shown thatelevated expression of alternate isoforms of RAF proteins (CRAF and ARAF) can continually stimulate"
+          },
+          {
+            "paragraph2": "Cancers 2018, 10, 22410 of 17"
+          },
+          {
+            "paragraph3": "the MAPK pathway despite BRAF inhibition, providing a mechanism of resistance (Figure 3) [50].Increased expression of MAP3K8 or COT can stimulate the MAPK pathway to bypass BRAF inhibition(Figure 3) [50,51]. The MAPK pathway and PI3K pathways also activate MCL-1, an antiapoptoticfactor. Parallel activation of the PI3K pathway may inhibit apoptosis in BRAF-mutant NSCLC throughMCL-1 despite inhibition of BRAF [50]. Trametinib, a MEK inhibitor, is used in conjunction withvemurafenib to enhance the efﬁcacy (Figure 1). There have been promising results with the combinationof vemurafenib and trametinib with an increase in upregulation BIM, a pro-apoptotic protein, in V600Eand non-V600E cells which plays a major role in apoptosis [52]. In a recent study, the combination oftrametinib and dabrafenib resulted in increased growth inhibition by increased caspase3/7 activityin H166 and H508 cell lines. This combinatory treatment also increased ERK inhibition comparedto monotherapy [53]. These results suggest that combinatorial therapy may be an effective route toovercome resistance to treatment in BRAF-mutant NSCLC."
+          },
+          {
+            "paragraph4": "Cancers 2017, 9, x FOR PEER REVIEW  10 of 17 "
+          },
+          {
+            "paragraph5": " "
+          },
+          {
+            "paragraph6": "study, the combination of trametinib and dabrafenib resulted in increased growth inhibition by increased caspase3/7 activity in H166 and H508 cell lines. This combinatory treatment also increased ERK inhibition compared to monotherapy [53]. These results suggest that combinatorial therapy may be an effective route to overcome resistance to treatment in BRAF-mutant NSCLC. "
+          },
+          {
+            "paragraph7": " "
+          },
+          {
+            "paragraph8": "Figure 3. CRAF, ARAF, COT, and MCL-1 confer resistance to BRAF inhibitors. Elevated expression of alternative RAF isoforms (ARAF and CRAF), as well as MAP3K8/COT, can stimulate the MAPK pathway despite BRAF inhibition. The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition. "
+          }
+        ]
+      },
+      {
+        "section1": [
+          {
+            "section_title": "5. Conclusions "
+          },
+          {
+            "paragraph1": "Resistance against current molecularly-targeted therapies represents a major clinical challenge in NSCLC. A plethora of research is ongoing to understand the mechanism of this acquired resistance by tumor cells. Mechanisms of resistance for several TKIs against EGFR, c-MET, ALK have been investigated and identified. These mechanisms include the attainment of mutations in the drug target and the activation of alternative signaling pathways, and further drug development is underway in order to overcome these modes of acquired resistance. Further studies are also necessary to further elucidate the mechanism of acquired resistance to HER2 and BRAF, as well as to develop effective therapies to overcome them. Gaining insight into the mechanisms underlying tumor cell drug resistance is critical for developing more effective therapies [106]. Combinatorial strategies could be effective in overcoming TKI resistance in lung cancer and have already shown some promise, such as in BRAF-mutant NSCLC. To achieve optimal efficacy, these strategies are directed at both mutations in native target sites as well as alternative pathways [63]. However, increased drug toxicity may be a factor that limits the use of combination therapies. In addition, tumors in different patients may acquire resistance via different mechanisms. Thus, it is important to evaluate each patient’s unique mechanism of resistance at the molecular level in order to tailor targeted therapies to individual patients. One approach involves repeated tissue biopsies to determine genomic evolution as a result of therapy. However, this method requires high level of "
+          },
+          {
+            "Figure": "29973561_page9_473.jpg",
+            "Figure_title": "Figure 3. CRAF, ARAF, COT, and MCL-1 confer resistance to BRAF inhibitors. Elevated expression of alternative RAF isoforms (ARAF and CRAF), as well as MAP3K8/COT, can stimulate the MAPK pathway despite BRAF inhibition. The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition. "
+          },
+          {
+            "paragraph2": "5. Conclusions"
+          },
+          {
+            "paragraph3": "Resistance against current molecularly-targeted therapies represents a major clinical challenge inNSCLC. A plethora of research is ongoing to understand the mechanism of this acquired resistanceby tumor cells. Mechanisms of resistance for several TKIs against EGFR, c-MET, ALK have beeninvestigated and identiﬁed. These mechanisms include the attainment of mutations in the drug targetand the activation of alternative signaling pathways, and further drug development is underwayin order to overcome these modes of acquired resistance. Further studies are also necessary tofurther elucidate the mechanism of acquired resistance to HER2 and BRAF, as well as to develop"
+          },
+          {
+            "paragraph4": "Cancers 2018, 10, 22411 of 17"
+          },
+          {
+            "paragraph5": "effective therapies to overcome them. Gaining insight into the mechanisms underlying tumor cell drugresistance is critical for developing more effective therapies [106].Combinatorial strategies could be effective in overcoming TKI resistance in lung cancer andhave already shown some promise, such as in BRAF-mutant NSCLC. To achieve optimal efﬁcacy,these strategies are directed at both mutations in native target sites as well as alternative pathways [63].However, increased drug toxicity may be a factor that limits the use of combination therapies.In addition, tumors in different patients may acquire resistance via different mechanisms. Thus, it isimportant to evaluate each patient’s unique mechanism of resistance at the molecular level in orderto tailor targeted therapies to individual patients. One approach involves repeated tissue biopsies todetermine genomic evolution as a result of therapy. However, this method requires high level of patientcompliance, is rather invasive, and can be confounded by intra-tumor heterogeneity [107]. To combatthese issues, technologies are being developed to allow for sampling of patients’ blood for analysis ofcirculating tumor cells or plasma for circulating cell-free tumor DNA, which allow a more homogenoussample of tumor genetic material, due to the presence of a signiﬁcant amount of circulating tumorDNA in the blood, that is far less invasive and easily-repeatable [108]. Novel gene mutations,single nucleotide polymorphisms, and copy number variations, which are found to contribute tothe development of drug resistance in tumor cells, could also prove valuable as a target to developnewer personalized therapies which, in effect, would reduce patient morbidity [109–111]. Genomicand functional genomic approaches such as systematic analyses of genotype-speciﬁc drug responsesand large-scale cell line genomic proﬁling are currently being employed on tumors or cancer cell linesto ﬁnd these mechanisms of drug resistance [111,112].Altogether, many avenues combating treatment resistance in lung cancer patients are currentlybeing developed and explored, leading to a promising future for the advancement of moleculartargeted therapy. Lung cancer is a disease with high molecular complexity. Hence, newer genomicapproaches like next-generation sequencing are needed to understand the entire drug-resistancerepertoire for better treatment of lung cancer subjects in a more personalized way."
+          },
+          {
+            "paragraph6": "Funding: This research received no external funding."
+          },
+          {
+            "paragraph7": "Conﬂicts of Interest: The authors declare no conﬂict of interest."
+          }
+        ]
+      },
+      {
+        "section1": [
+          {
+            "section_title": "References"
+          },
+          {
+            "paragraph1": "1.Kratzke, R.; Franklin, M.J. Lung cancer epidemiology. In Encyclopedia of Cancer; Schwab, M., Ed.; Springer:Berlin/Heidelberg, Germany, 2016; pp. 1–8."
+          },
+          {
+            "paragraph2": "2.Siegel, R.L.; Miller, K.D.; Jemal, A. Cancer statistics, 2017. CA Cancer J. Clin. 2017, 67, 7–30. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph3": "3.Gadgeel, S.M.; Ramalingam, S.S.; Kalekerian, G.P. Treatment of lung cancer. Radiol. Clin. N. Am. 2012, 50,961–974. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph4": "4.Daga, A.; Ansari, A.; Patel, S.; Mirza, S.; Rawal, R.; Umrania, V. Current drugs and drug targets in non-smallcell lung cancer: Limitations and opportunities. APJCP 2015, 16, 4147–4156. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph5": "5.Domvri, K.; Zarogoulidis, P.; Darwiche, K.; Browning, R.F.; Li, Q.; Turner, J.F.; Kioumis, I.; Spyratos, D.;Porpodis, K.; Papaiwannou, A.; et al. Molecular targeted drugs and biomarkers in NSCLC, the evolving roleof individualized therapy. J. Cancer 2013, 4, 736–754. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph6": "6.Cardarella, S.; Ogino, A.; Nishino, M.; Butaney, M.; Shen, J.; Lydon, C.; Yeap, B.Y.; Sholl, L.M.; Johnson, B.E.;Janne, P.A. Clinical, pathologic, and biologic features associated with braf mutations in non-small cell lungcancer. Clin. Cancer Res. 2013, 19, 4532–4540. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph7": "7.Ciuffreda, L.; Incani, U.C.; Steelman, L.S.; Abrams, S.L.; Falcone, I.; Curatolo, A.D.; Chappell, W.H.;Franklin, R.A.; Vari, S.; Cognetti, F.; et al. Signaling intermediates (MAPK and PI3K) as therapeutic targets innsclc. Curr. Pharm. Des. 2014, 20, 3944–3957. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph8": "Cancers 2018, 10, 22412 of 17"
+          },
+          {
+            "paragraph9": "8.Soucheray, M.; Capelletti, M.; Pulido, I.; Kuang, Y.; Paweletz, C.P.; Becker, J.H.; Kikuchi, E.; Xu, C.; Patel, T.B.;Al-Shahrour, F.; et al. Intratumoral heterogeneity in EGFR-mutant NSCLC results in divergent resistancemechanisms in response to egfr tyrosine kinase inhibition. Cancer Res. 2015, 75, 4372–4383. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph10": "9.Yu, H.A.; Sima, C.S.; Huang, J.; Solomon, S.B.; Rimner, A.; Paik, P.; Pietanza, M.C.; Azzoli, C.G.; Rizvi, N.A.;Krug, L.M.; et al. Local therapy with continued egfr tyrosine kinase inhibitor therapy as a treatment strategyin egfr-mutant advanced lung cancers that have developed acquired resistance to egfr tyrosine kinaseinhibitors. J. Thorac. Oncol. 2013, 8, 346–351. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph11": "10.Godin-Heymann, N.; Ulkus, L.; Brannigan, B.W.; McDermott, U.; Lamb, J.; Maheswaran, S.; Settleman, J.;Haber, D.A. The t790m “gatekeeper” mutation in EGFR mediates resistance to low concentrations of anirreversible egfr inhibitor. Mol. Cancer Ther. 2008, 7, 874–879. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph12": "11.Ray, M.; Salgia, R.; Vokes, E.E. The role of egfr inhibition in the treatment of non-small cell lung cancer.Oncologist 2009, 14, 1116–1130. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph13": "12.Engle, J.A.; Kolesar, J.M. Afatinib: A ﬁrst-line treatment for selected patients with metastatic non-small-celllung cancer. AJHP 2014, 71, 1933–1938. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph14": "13.Solca, F.; Dahl, G.; Zoephel, A.; Bader, G.; Sanderson, M.; Klein, C.; Kraemer, O.; Himmelsbach, F.;Haaksma, E.; Adolf, G.R. Target binding properties and cellular activity of afatinib (bibw 2992), an irreversibleerbb family blocker. J. Pharmacol. Exp. Ther. 2012, 343, 342–350. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph15": "14.Janne, P.A.; Yang, J.C.; Kim, D.W.; Planchard, D.; Ohe, Y.; Ramalingam, S.S.; Ahn, M.J.; Kim, S.W.; Su, W.C.;Horn, L.; et al. Azd9291 in EGFR inhibitor-resistant non-small-cell lung cancer. N. Engl. J. Med. 2015, 372,1689–1699. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph16": "15.FDA. Fda Approves Osimertinib for First-Line Treatment of Metastatic Nsclc with Most Common EGFRMutations. Available online: http://www.fda.gov (accessed on 12 June 2018)."
+          },
+          {
+            "paragraph17": "16.First-line osimertinib beneﬁcial in advanced nsclc. Cancer Dis. 2018, 8, OF1."
+          },
+          {
+            "paragraph18": "17.Floc’h, N.; Martin, M.J.; Riess, J.W.; Orme, J.P.; Staniszewska, A.D.; Menard, L.; Cuomo, M.E.; O’Neill, D.J.;Ward, R.A.; Finlay, M.R.V.; et al. Antitumor activity of osimertinib, an irreversible mutant-selective EGFRtyrosine kinase inhibitor, in nsclc harboring egfr exon 20 insertions. Mol. Cancer Ther. 2018, 17, 885–896.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph19": "18.Planchard, D.; Loriot, Y.; Andre, F.; Gobert, A.; Auger, N.; Lacroix, L.; Soria, J.C. Egfr-independentmechanisms of acquired resistance to azd9291 in egfr t790m-positive nsclc patients. Ann. Oncol. 2015,26, 2073–2078. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph20": "19.Zheng, D.; Hu, M.; Bai, Y.; Zhu, X.; Lu, X.; Wu, C.; Wang, J.; Liu, L.; Wang, Z.; Ni, J.; et al. EGFR g796dmutation mediates resistance to osimertinib. Oncotarget 2017, 8, 49671–49679. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph21": "20.Wang, S.; Tsui, S.T.; Liu, C.; Song, Y.; Liu, D. EGFR c797s mutation mediates resistance to third-generationinhibitors in t790m-positive non-small cell lung cancer. J. Hematol. Oncol. 2016, 9, 59. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph22": "21.Steuer, C.E.; Khuri, F.R.; Ramalingam, S.S. The next generation of epidermal growth factor receptor tyrosinekinase inhibitors in the treatment of lung cancer. Cancer 2015, 121, E1–E6. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph23": "22.Van Der Steen, N.; Caparello, C.; Rolfo, C.; Pauwels, P.; Peters, G.J.; Giovannetti, E. New developments inthe management of non-small-cell lung cancer, focus on rociletinib: What went wrong? OncoTargets Ther.2016, 9, 6065–6074. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph24": "23.Wang, S.; Song, Y.; Liu, D. Eai045: The fourth-generation egfr inhibitor overcoming t790m and c797sresistance. Cancer Lett. 2017, 385, 51–54. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph25": "24.Choi, Y.L.; Soda, M.; Yamashita, Y.; Ueno, T.; Takashima, J.; Nakajima, T.; Yatabe, Y.; Takeuchi, K.; Hamada, T.;Haruta, H.; et al. EML4-ALK mutations in lung cancer that confer resistance to ALK inhibitors. N. Eng.J. Med. 2010, 363, 1734–1739. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph26": "25.Kazandjian, D.; Blumenthal, G.M.; Chen, H.Y.; He, K.; Patel, M.; Justice, R.; Keegan, P.; Pazdur, R. Fdaapproval summary: Crizotinib for the treatment of metastatic non-small cell lung cancer with anaplasticlymphoma kinase rearrangements. Oncologist 2014, 19, e5–e11. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph27": "26.Katayama, R.; Shaw, A.T.; Khan, T.M.; Mino-Kenudson, M.; Solomon, B.J.; Halmos, B.; Jessop, N.A.; Wain, J.C.;Yeo, A.T.; Benes, C.; et al. Mechanisms of acquired crizotinib resistance in ALK-rearranged lung cancers.Sci. Transl. Med. 2012, 4, 120ra117. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph28": "Cancers 2018, 10, 22413 of 17"
+          },
+          {
+            "paragraph29": "27.Doebele, R.C.; Pilling, A.B.; Aisner, D.L.; Kutateladze, T.G.; Le, A.T.; Weickhardt, A.J.; Kondo, K.L.;Linderman, D.J.; Heasley, L.E.; Franklin, W.A.; et al. Mechanisms of resistance to crizotinib in patients withalk gene rearranged non-small cell lung cancer. Clin. Cancer Res. 2012, 18, 1472–1482. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph30": "28.Dehghanian, F.; Kay, M.; Vallian, S. F1174v mutation alters the alk active conformation in response tocrizotinib in NSCLC: Insight from molecular simulations. J. Mol. Graph. Model. 2017, 75, 287–293. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph31": "29.Bang, Y.J. The potential for crizotinib in non-small cell lung cancer: A perspective review. Ther. Adv. Med.Oncol. 2011, 3, 279–291. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph32": "30.Ai, X.; Shen, S.; Shen, L.; Lu, S. An interaction map of small-molecule kinase inhibitors with anaplasticlymphoma kinase (ALK) mutants in ALK-positive non-small cell lung cancer. Biochimie 2015, 112, 111–120.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph33": "31.Wilson, F.H.; Johannessen, C.M.; Piccioni, F.; Tamayo, P.; Kim, J.W.; van Allen, E.M.; Corsello, S.M.;Capelletti, M.; Calles, A.; Butaney, M.; et al. A functional landscape of resistance to ALK inhibition inlung cancer. Cancer Cell 2015, 27, 397–408. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph34": "32.Heuckmann, J.M.; Holzel, M.; Sos, M.L.; Heynck, S.; Balke-Want, H.; Koker, M.; Peifer, M.; Weiss, J.;Lovly, C.M.; Grutter, C.; et al. Alk mutations conferring differential resistance to structurally diverse alkinhibitors. Clin. Cancer Res. 2011, 17, 7394–7401. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph35": "33.Shaw, A.T.; Engelman, J.A. Ceritinib in alk-rearranged non-small-cell lung cancer. N. Engl. J. Med. 2014, 370,2537–2539. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph36": "34.Awad, M.M.; Shaw, A.T. Alk inhibitors in non-small cell lung cancer: Crizotinib and beyond. Clin. Adv.Hematol. Oncol. 2014, 12, 429–439. [PubMed]"
+          },
+          {
+            "paragraph37": "35.Friboulet, L.; Li, N.; Katayama, R.; Lee, C.C.; Gainor, J.F.; Crystal, A.S.; Michellys, P.Y.; Awad, M.M.;Yanagitani, N.; Kim, S.; et al. The alk inhibitor ceritinib overcomes crizotinib resistance in non-small celllung cancer. Cancer Dis. 2014, 4, 662–673. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph38": "36.Toyokawa, G.; Inamasu, E.; Shimamatsu, S.; Yoshida, T.; Nosaki, K.; Hirai, F.; Yamaguchi, M.; Seto, T.;Takenoyama, M.; Ichinose, Y. Identiﬁcation of a novel ALK g1123s mutation in a patient with ALK-rearrangednon-small-cell lung cancer exhibiting resistance to ceritinib. J. Thorac. Oncol. 2015, 10, e55–e57. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph39": "37.Zhu, V.W.; Cui, J.J.; Fernandez-Rocha, M.; Schrock, A.B.; Ali, S.M.; Ou, S.I. Identiﬁcation of a novel t1151k alkmutation in a patient with alk-rearranged nsclc with prior exposure to crizotinib and ceritinib. Lung Cancer2017, 110, 32–34. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph40": "38.Peters, S.; Camidge, D.R.; Shaw, A.T.; Gadgeel, S.; Ahn, J.S.; Kim, D.W.; Ou, S.I.; Perol, M.; Dziadziuszko, R.;Rosell, R.; et al. Alectinib versus crizotinib in untreated ALK-positive non-small-cell lung cancer. N. Engl.J. Med. 2017, 377, 829–838. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph41": "39.Ignatius Ou, S.H.; Azada, M.; Hsiang, D.J.; Herman, J.M.; Kain, T.S.; Siwak-Tapp, C.; Casey, C.; He, J.;Ali, S.M.; Klempner, S.J.; et al. Next-generation sequencing reveals a novel nsclc alk f1174v mutationand conﬁrms ALK g1202r mutation confers high-level resistance to alectinib (ch5424802/ro5424802) inALK-rearranged nsclc patients who progressed on crizotinib. J. Thorac. Oncol. 2014, 9, 549–553. [PubMed]"
+          },
+          {
+            "paragraph42": "40.Ou, S.H.; Klempner, S.J.; Greenbowe, J.R.; Azada, M.; Schrock, A.B.; Ali, S.M.; Ross, J.S.; Stephens, P.J.;Miller, V.A. Identiﬁcation of a novel hip1-ALK fusion variant in non-small-cell lung cancer (NSCLC) anddiscovery of alk i1171 (i1171n/s) mutations in two alk-rearranged nsclc patients with resistance to alectinib.J. Thorac. Oncol. 2014, 9, 1821–1825. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph43": "41.Toyokawa, G.; Hirai, F.; Inamasu, E.; Yoshida, T.; Nosaki, K.; Takenaka, T.; Yamaguchi, M.; Seto, T.;Takenoyama, M.; Ichinose, Y. Secondary mutations at i1171 in the alk gene confer resistance to both crizotiniband alectinib. J. Thorac. Oncol. 2014, 9, e86–e87. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph44": "42.Katayama, R.; Friboulet, L.; Koike, S.; Lockerman, E.L.; Khan, T.M.; Gainor, J.F.; Iafrate, A.J.; Takeuchi, K.;Taiji, M.; Okuno, Y.; et al. Two novel ALK mutations mediate acquired resistance to the next-generation alkinhibitor alectinib. Clin. Cancer Res. 2014, 20, 5686–5696. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph45": "43.Sabari, J.K.; Santini, F.C.; Schram, A.M.; Bergagnini, I.; Chen, R.; Mrad, C.; Lai, W.V.; Arbour, K.C.; Drilon, A.The activity, safety, and evolving role of brigatinib in patients with ALK-rearranged non-small cell lungcancers. OncoTargets Ther. 2017, 10, 1983–1992. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph46": "Cancers 2018, 10, 22414 of 17"
+          },
+          {
+            "paragraph47": "44.Shaw, A.T.; Felip, E.; Bauer, T.M.; Besse, B.; Navarro, A.; Postel-Vinay, S.; Gainor, J.F.; Johnson, M.; Dietrich, J.;James, L.P.; et al. Lorlatinib in non-small-cell lung cancer with ALK or ROS1 rearrangement: An international,multicentre, open-label, single-arm ﬁrst-in-man phase 1 trial. Lancet Oncol. 2017, 18, 1590–1599. [CrossRef]"
+          },
+          {
+            "paragraph48": "45.Shaw, A.T.; Friboulet, L.; Leshchiner, I.; Gainor, J.F.; Bergqvist, S.; Brooun, A.; Burke, B.J.; Deng, Y.L.; Liu, W.;Dardaei, L.; et al. Resensitization to crizotinib by the lorlatinib alk resistance mutation l1198f. N. Engl. J. Med.2016, 374, 54–61. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph49": "46.Farago, A.F.; Le, L.P.; Zheng, Z.; Muzikansky, A.; Drilon, A.; Patel, M.; Bauer, T.M.; Liu, S.V.; Ou, S.H.;Jackman, D.; et al. Durable clinical response to entrectinib in NTRK1-rearranged non-small cell lung cancer.J. Thorac. Oncol. 2015, 10, 1670–1674. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph50": "47.Horn, L.; Infante, J.R.; Reckamp, K.L.; Blumenschein, G.R.; Leal, T.A.; Waqar, S.N.; Gitlitz, B.J.; Sanborn, R.E.;Whisenant, J.G.; Du, L.; et al. Ensartinib (x-396) in ALK-positive non-small cell lung cancer: Results from aﬁrst-in-human phase I/II, multicenter study. Clin. Cancer Res. 2018, 24, 2771–2779. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph51": "48.Planchard, D.; Kim, T.M.; Mazieres, J.; Quoix, E.; Riely, G.J.; Barlesi, F.; Souquet, P.; Smit, E.F.; Groen, H.J.M.;Kelly, R.J.; et al. Dabrafenib in patients with braf v600e-mutant advanced non-small cell lung cancer (NSCLC):A multicenter, open-label, phase II trial (BRF113928). Ann. Oncol. 2014, 25. [CrossRef]"
+          },
+          {
+            "paragraph52": "49.Rudin, C.M.; Hong, K.; Streit, M. Molecular characterization of acquired resistance to the BRAF inhibitordabrafenib in a patient with braf-mutant non-small-cell lung cancer. J. Thorac. Oncol. 2013, 8, e41–e42.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph53": "50.Villanueva, J.; Vultur, A.; Herlyn, M. Resistance to braf inhibitors: Unraveling mechanisms and futuretreatment options. Cancer Res. 2011, 71, 7137–7140. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph54": "51.Johannessen, C.M.; Boehm, J.S.; Kim, S.Y.; Thomas, S.R.; Wardwell, L.; Johnson, L.A.; Emery, C.M.;Stransky, N.; Cogdill, A.P.; Barretina, J.; et al. COT drives resistance to Raf inhibition through MAPkinase pathway reactivation. Nature 2010, 468, 968–972. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph55": "52.Joshi, M.; Rice, S.J.; Liu, X.; Miller, B.; Belani, C.P. Trametinib with or without vemurafenib in braf mutatednon-small cell lung cancer. PLoS ONE 2015, 10, e0118210. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph56": "53.Noeparast, A.; Teugels, E.; Giron, P.; Verschelden, G.; de Brakeleer, S.; Decoster, L.; de Greve, J. Non-v600braf mutations recurrently found in lung cancer predict sensitivity to the combination of trametinib anddabrafenib. Oncotarget 2017, 8, 60094–60108. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph57": "54.Mendelsohn, J.; Baselga, J. Epidermal growth factor receptor targeting in cancer. Semin. Oncol. 2006, 33,369–385. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph58": "55.Zhang, Z.; Stiegler, A.L.; Boggon, T.J.; Kobayashi, S.; Halmos, B. EGFR-mutated lung cancer: A paradigm ofmolecular oncology. Oncotarget 2010, 1, 497–514. [PubMed]"
+          },
+          {
+            "paragraph59": "56.Noronha, V.; Choughule, A.; Patil, V.M.; Joshi, A.; Kumar, R.; Susan Joy Philip, D.; Banavali, S.; Dutt, A.;Prabhash, K. Epidermal growth factor receptor exon 20 mutation in lung cancer: Types, incidence, clinicalfeatures and impact on treatment. OncoTargets Ther. 2017, 10, 2903–2908. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph60": "57.Gazdar, A.F. Activating and resistance mutations of egfr in non-small-cell lung cancer: Role in clinicalresponse to EGFR tyrosine kinase inhibitors. Oncogene 2009, 28, S24–S31. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph61": "58.Ma, C.; Wei, S.; Song, Y. T790m and acquired resistance of EGFR TKI: A literature review of clinical reports.J. Thorac. Dis. 2011, 3, 10–18. [PubMed]"
+          },
+          {
+            "paragraph62": "59.Rastogi, I.; Rajanna, S.; Webb, A.; Chhabra, G.; Foster, B.; Webb, B.; Puri, N. Mechanism of c-MET and EGFRtyrosine kinase inhibitor resistance through epithelial mesenchymal transition in non-small cell lung cancer.Biochem. Biophys. Res. Commun. 2016, 477, 937–944. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph63": "60.Yao, Z.; Fenoglio, S.; Gao, D.C.; Camiolo, M.; Stiles, B.; Lindsted, T.; Schlederer, M.; Johns, C.; Altorki, N.;Mittal, V.; et al. TGF-beta IL-6 axis mediates selective and adaptive mechanisms of resistance to moleculartargeted therapy in lung cancer. Proc. Natl. Acad. Sci. USA 2010, 107, 15535–15540. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph64": "61.Li, L.; Han, R.; Xiao, H.; Lin, C.; Wang, Y.; Liu, H.; Li, K.; Chen, H.; Sun, F.; Yang, Z.; et al. Metformin sensitizesEGFR-TKI-resistant human lung cancer cells in vitro and in vivo through inhibition of IL-6 signaling andemt reversal. Clin. Cancer Res. 2014, 20, 2714–2726. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph65": "62.Engelman, J.A.; Mukohara, T.; Zejnullahu, K.; Lifshits, E.; Borras, A.M.; Gale, C.M.; Naumov, G.N.; Yeap, B.Y.;Jarrell, E.; Sun, J.; et al. Allelic dilution obscures detection of a biologically signiﬁcant resistance mutation inegfr-ampliﬁed lung cancer. J. Clin. Investig. 2006, 116, 2695–2706. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph66": "Cancers 2018, 10, 22415 of 17"
+          },
+          {
+            "paragraph67": "63.Fong, J.T.; Jacobs, R.J.; Moravec, D.N.; Uppada, S.B.; Botting, G.M.; Nlend, M.; Puri, N. Alternative signalingpathways as potential therapeutic targets for overcoming egfr and c-met inhibitor resistance in non-smallcell lung cancer. PLoS ONE 2013, 8, e78398. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph68": "64.Botting, G.M.; Rastogi, I.; Chhabra, G.; Nlend, M.; Puri, N. Mechanism of resistance and novel targetsmediating resistance to egfr and c-met tyrosine kinase inhibitors in non-small cell lung cancer. PLoS ONE2015, 10, e0136155. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph69": "65.Civenni, G.; Holbro, T.; Hynes, N.E. Wnt1 and wnt5a induce cyclin d1 expression through erbb1transactivation in hc11 mammary epithelial cells. EMBO 2003, 4, 166–171. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph70": "66.Bai, X.Y.; Zhang, X.C.; Yang, S.Q.; An, S.J.; Chen, Z.H.; Su, J.; Xie, Z.; Gou, L.Y.; Wu, Y.L. Blockade of hedgehogsignaling synergistically increases sensitivity to epidermal growth factor receptor tyrosine kinase inhibitorsin non-small-cell lung cancer cell lines. PLoS ONE 2016, 11, e0149370. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph71": "67.Palma, V.; Ruiz i Altaba, A. Hedgehog-Gli signaling regulates the behavior of cells with stem cell propertiesin the developing neocortex. Development 2004, 131, 337–345. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph72": "68.Wang, S.E.; Narasanna, A.; Perez-Torres, M.; Xiang, B.; Wu, F.Y.; Yang, S.; Carpenter, G.; Gazdar, A.F.;Muthuswamy, S.K.; Arteaga, C.L. HER2 kinase domain mutation results in constitutive phosphorylation andactivation of HER2 and EGFR and resistance to egfr tyrosine kinase inhibitors. Cancer Cell 2006, 10, 25–38.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph73": "69.Birchmeier, C.; Birchmeier, W.; Gherardi, E.; Vande Woude, G.F. MET, metastasis, motility and more. Nat. Rev.2003, 4, 915–925. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph74": "70.Engelman, J.A.; Zejnullahu, K.; Mitsudomi, T.; Song, Y.; Hyland, C.; Park, J.O.; Lindeman, N.; Gale, C.M.;Zhao, X.; Christensen, J.; et al. Met ampliﬁcation leads to geﬁtinib resistance in lung cancer by activatingERBB3 signaling. Science 2007, 316, 1039–1043. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph75": "71.Jo, M.; Stolz, D.B.; Esplen, J.E.; Dorko, K.; Michalopoulos, G.K.; Strom, S.C. Cross-talk between epidermalgrowth factor receptor and c-MET signal pathways in transformed cells. J. Biol. Chem. 2000, 275, 8806–8811.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph76": "72.Puri, N.; Salgia, R. Synergism of EGFR and c-MET pathways, cross-talk and inhibition, in non-small celllung cancer. J. Carcinog. 2008, 7, 9. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph77": "73.Cascone, T.; Xu, L.; Lin, H.Y.; Liu, W.; Tran, H.T.; Liu, Y.; Howells, K.; Haddad, V.; Hanrahan, E.;Nilsson, M.B.; et al. The HGF/c-MET pathway is a driver and biomarker of VEGFR-inhibitor resistanceand vascular remodeling in non-small cell lung cancer. Clin. Cancer Res. 2017, 23, 5489–5501. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph78": "74.McDermott, U.; Pusapati, R.V.; Christensen, J.G.; Gray, N.S.; Settleman, J. Acquired resistance of non-smallcell lung cancer cells to met kinase inhibition is mediated by a switch to epidermal growth factor receptordependency. Cancer Res. 2010, 70, 1625–1634. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph79": "75.Nakagawa, T.; Takeuchi, S.; Yamada, T.; Nanjo, S.; Ishikawa, D.; Sano, T.; Kita, K.; Nakamura, T.;Matsumoto, K.; Suda, K.; et al. Combined therapy with mutant-selective EGFR inhibitor and MET kinaseinhibitor for overcoming erlotinib resistance in EGFR-mutant lung cancer. Mol. Cancer Ther. 2012, 11,2149–2157. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph80": "76.Choi, Y.J.; Rho, J.K.; Jeon, B.S.; Choi, S.J.; Park, S.C.; Lee, S.S.; Kim, H.R.; Kim, C.H.; Lee, J.C. Combinedinhibition of igfr enhances the effects of geﬁtinib in h1650: A lung cancer cell line with egfr mutation andprimary resistance to EGFR-TK inhibitors. Cancer Chemother. Pharmacol. 2010, 66, 381–388. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph81": "77.Ruiter, R.; Visser, L.E.; van Herk-Sukel, M.P.; Coebergh, J.W.; Haak, H.R.; Geelhoed-Duijvestijn, P.H.;Straus, S.M.; Herings, R.M.; Stricker, B.H. Lower risk of cancer in patients on metformin in comparison withthose on sulfonylurea derivatives: Results from a large population-based follow-up study. Diabetes Care2012, 35, 119–124. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph82": "78.Morgillo, F.; Sasso, F.C.; Della Corte, C.M.; Vitagliano, D.; D’Aiuto, E.; Troiani, T.; Martinelli, E.; de Vita, F.;Orditura, M.; de Palma, R.; et al. Synergistic effects of metformin treatment in combination with geﬁtinib,a selective egfr tyrosine kinase inhibitor, in LKB1 wild-type nsclc cell lines. Clin. Cancer Res. 2013, 19,3508–3519. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph83": "79.Wu, N.; Gu, C.; Gu, H.; Hu, H.; Han, Y.; Li, Q. Metformin induces apoptosis of lung cancer cells throughactivating jnk/p38 MAPK pathway and gadd153. Neoplasma 2011, 58, 482–490. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph84": "Cancers 2018, 10, 22416 of 17"
+          },
+          {
+            "paragraph85": "80.Li, L.; Huang, W.; Li, K.; Zhang, K.; Lin, C.; Han, R.; Lu, C.; Wang, Y.; Chen, H.; Sun, F.; et al. Metforminattenuates geﬁtinib-induced exacerbation of pulmonary ﬁbrosis by inhibition of TGF-beta signaling pathway.Oncotarget 2015, 6, 43605–43619. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph86": "81.Codony-Servat, C.; Codony-Servat, J.; Karachaliou, N.; Molina, M.A.; Chaib, I.; Ramirez, J.L.; de Los LlanosGil, M.; Solca, F.; Bivona, T.G.; Rosell, R. Activation of signal transducer and activator of transcription 3(STAT3) signaling in egfr mutant non-small-cell lung cancer (NSCLC). Oncotarget 2017, 8, 47305–47316.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph87": "82.Eberlein, C.A.; Stetson, D.; Markovets, A.A.; Al-Kadhimi, K.J.; Lai, Z.; Fisher, P.R.; Meador, C.B.; Spitzler, P.;Ichihara, E.; Ross, S.J.; et al. Acquired resistance to the mutant-selective EGFR inhibitor azd9291 is associatedwith increased dependence on Ras signaling in preclinical models. Cancer Res. 2015, 75, 2489–2500. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph88": "83.Martinez-Marti, A.; Felip, E.; Matito, J.; Mereu, E.; Navarro, A.; Cedres, S.; Pardo, N.; Martinez de Castro, A.;Remon, J.; Miquel, J.M.; et al.Dual MET and ERBB inhibition overcomes intratumor plasticity inosimertinib-resistant-advanced non-small-cell lung cancer (NSCLC). Ann. Oncol. 2017, 28, 2451–2457.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph89": "84.Ou, S.I.; Agarwal, N.; Ali, S.M. High met ampliﬁcation level as a resistance mechanism to osimertinib(azd9291) in a patient that symptomatically responded to crizotinib treatment post-osimertinib progression.Lung Cancer 2016, 98, 59–61. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph90": "85.Wellstein, A. Alk receptor activation, ligands and therapeutic targeting in glioblastoma and in other cancers.Front. Oncol. 2012, 2, 192. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph91": "86.Souttou, B.; Carvalho, N.B.; Raulais, D.; Vigny, M. Activation of anaplastic lymphoma kinase receptortyrosine kinase induces neuronal differentiation through the mitogen-activated protein kinase pathway.J. Biol. Chem. 2001, 276, 9526–9531. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph92": "87.Morales La Madrid, A.; Campbell, N.; Smith, S.; Cohn, S.L.; Salgia, R. Targeting alk: A promising strategyfor the treatment of non-small cell lung cancer, non-hodgkin’s lymphoma, and neuroblastoma. Target. Oncol.2012, 7, 199–210. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph93": "88.Shaw, A.T.; Solomon, B. Targeting anaplastic lymphoma kinase in lung cancer. Clin. Cancer Res. 2011, 17,2081–2086. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph94": "89.Wellstein, A.; Toretsky, J.A. Hunting ALK to feed targeted cancer therapy. Nat. Med. 2011, 17, 290–291.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph95": "90.Proietti, A.; Ali, G.; Pelliccioni, S.; Lupi, C.; Sensi, E.; Boldrini, L.; Servadio, A.; Chella, A.; Ribechini, A.;Cappuzzo, F.; et al. Anaplastic lymphoma kinase gene rearrangements in cytological samples of non-smallcell lung cancer: Comparison with histological assessment. Cancer Cytopathol. 2014, 122, 445–453. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph96": "91.Kogita, A.; Togashi, Y.; Hayashi, H.; Sogabe, S.; Terashima, M.; de Velasco, M.A.; Sakai, K.; Fujita, Y.;Tomida, S.; Takeyama, Y.; et al. Hypoxia induces resistance to alk inhibitors in the h3122 non-small cell lungcancer cell line with an ALK rearrangement via epithelial-mesenchymal transition. Int. J. Oncol. 2014, 45,1430–1436. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph97": "92.Lovly, C.M.; McDonald, N.T.; Chen, H.; Ortiz-Cuaran, S.; Heukamp, L.C.; Yan, Y.; Florin, A.; Ozretic, L.;Lim, D.; Wang, L.; et al. Rationale for co-targeting IGF-1R and ALK in ALK fusion-positive lung cancer.Nat. Med. 2014, 20, 1027–1034. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph98": "93.Ji, C.; Zhang, L.; Cheng, Y.; Patel, R.; Wu, H.; Zhang, Y.; Wang, M.; Ji, S.; Belani, C.P.; Yang, J.M.; et al.Induction of autophagy contributes to crizotinib resistance in alk-positive lung cancer. Cancer Biol. Ther.2014, 15, 570–577. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph99": "94.Choi, S.H.; Kim, D.H.; Choi, Y.J.; Kim, S.Y.; Lee, J.E.; Sung, K.J.; Kim, W.S.; Choi, C.M.; Rho, J.K.; Lee, J.C.Multiple receptor tyrosine kinase activation related to ALK inhibitor resistance in lung cancer cells with alkrearrangement. Oncotarget 2017, 8, 58771–58780. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph100": "95.Gandhi, L.; Ou, S.I.; Shaw, A.T.; Barlesi, F.; Dingemans, A.C.; Kim, D.W.; Camidge, D.R.; Hughes, B.G.M.;Yang, J.C.; de Castro, J.; et al. Efﬁcacy of alectinib in central nervous system metastases in crizotinib-resistantalk-positive non-small-cell lung cancer: Comparison of recist 1.1 and RANO-HGG criteria. Eur. J. Cancer2017, 82, 27–33. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph101": "96.Gouji, T.; Takashi, S.; Mitsuhiro, T.; Yukito, I. Crizotinib can overcome acquired resistance to ch5424802:Is ampliﬁcation of the met gene a key factor? J. Thorac. Oncol. 2014, 9, e27–e28. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph102": "Cancers 2018, 10, 22417 of 17"
+          },
+          {
+            "paragraph103": "97.Kogita, A.; Togashi, Y.; Hayashi, H.; Banno, E.; Terashima, M.; de Velasco, M.A.; Sakai, K.; Fujita, Y.; Tomida, S.;Takeyama, Y.; et al. Activated MET acts as a salvage signal after treatment with alectinib, a selective alkinhibitor, in alk-positive non-small cell lung cancer. Int. J. Oncol. 2015, 46, 1025–1030. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph104": "98.Tanimoto, A.; Yamada, T.; Nanjo, S.; Takeuchi, S.; Ebi, H.; Kita, K.; Matsumoto, K.; Yano, S. Receptorligand-triggered resistance to alectinib and its circumvention by HSP90 inhibition in EML4-ALK lung cancercells. Oncotarget 2014, 5, 4920–4928. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph105": "99.Hrustanovic, G.; Olivas, V.; Pazarentzos, E.; Tulpule, A.; Asthana, S.; Blakely, C.M.; Okimoto, R.A.;Lin, L.; Neel, D.S.; Sabnis, A.; et al. Ras-mapk dependence underlies a rational polytherapy strategyin EML4-ALK-positive lung cancer. Nat. Med. 2015, 21, 1038–1047. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph106": "100. Rossi, G.; Jocolle, G.; Conti, A.; Tiseo, M.; Zito Marino, F.; Donati, G.; Franco, R.; Bono, F.; Barbisan, F.;Facchinetti, F. Detection of ROS1 rearrangement in non-small cell lung cancer: Current and futureperspectives. Lung Cancer 2017, 8, 45–55. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph107": "101. Russo, M.; Misale, S.; Wei, G.; Siravegna, G.; Crisafulli, G.; Lazzari, L.; Corti, G.; Rospo, G.; Novara, L.;Mussolin, B.; et al. Acquired resistance to the trk inhibitor entrectinib in colorectal cancer. Cancer Discov.2016, 6, 36–44. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph108": "102. Drilon, A.; Li, G.; Dogan, S.; Gounder, M.; Shen, R.; Arcila, M.; Wang, L.; Hyman, D.M.; Hechtman, J.;Wei, G.; et al. What hides behind the masc: Clinical response and acquired resistance to entrectinib afteretv6-ntrk3 identiﬁcation in a mammary analogue secretory carcinoma (MASC). Ann. Oncol. 2016, 27, 920–926.[CrossRef] [PubMed]"
+          },
+          {
+            "paragraph109": "103. Ross, J.S.; Wang, K.; Chmielecki, J.; Gay, L.; Johnson, A.; Chudnovsky, J.; Yelensky, R.; Lipson, D.; Ali, S.M.;Elvin, J.A.; et al. The distribution of BRAF gene fusions in solid tumors and response to targeted therapy.Int. J. Cancer 2016, 138, 881–890. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph110": "104. Paik, P.K.; Arcila, M.E.; Fara, M.; Sima, C.S.; Miller, V.A.; Kris, M.G.; Ladanyi, M.; Riely, G.J. Clinicalcharacteristics of patients with lung adenocarcinomas harboring braf mutations. J. Clin. Oncol. 2011, 29,2046–2051. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph111": "105. Luk, P.P.; Yu, B.; Ng, C.C.; Mercorella, B.; Selinger, C.; Lum, T.; Kao, S.; O’Toole, S.A.; Cooper, W.A.Braf mutations in non-small cell lung cancer. Transl. Lung Cancer Res. 2015, 4, 142–148. [PubMed]"
+          },
+          {
+            "paragraph112": "106. Zheng, Y.; Zhou, J.; Tong, Y. Gene signatures of drug resistance predict patient survival in colorectal cancer.Pharmacogenomics J. 2015, 15, 135–143. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph113": "107. Murtaza, M.; Dawson, S.J.; Tsui, D.W.; Gale, D.; Forshew, T.; Piskorz, A.M.; Parkinson, C.; Chin, S.F.;Kingsbury, Z.; Wong, A.S.; et al. Non-invasive analysis of acquired resistance to cancer therapy by sequencingof plasma DNA. Nature 2013, 497, 108–112. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph114": "108. Tan, C.S.; Gilligan, D.; Pacey, S. Treatment approaches for egfr-inhibitor-resistant patients with non-small-celllung cancer. Lancet Oncol. 2015, 16, e447–e459. [CrossRef]"
+          },
+          {
+            "paragraph115": "109. Mehta, S.; Shelling, A.; Muthukaruppan, A.; Lasham, A.; Blenkiron, C.; Laking, G.; Print, C. Predictive andprognostic molecular markers for cancer medicine. Ther. Adv. Med. Oncol. 2010, 2, 125–148. [CrossRef][PubMed]"
+          },
+          {
+            "paragraph116": "110. Rodrigues, A.S.; Dinis, J.; Gromicho, M.; Martins, C.; Laires, A.; Rueff, J. Genomics and cancer drug resistance.Curr. Pharm. Biotechnol. 2012, 13, 651–673. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph117": "111. Hu, X.; Zhang, Z. Understanding the genetic mechanisms of cancer drug resistance using genomicapproaches. TIG 2016, 32, 127–137. [CrossRef] [PubMed]"
+          },
+          {
+            "paragraph118": "112. Li, W.; Zhao, K.; Kirberger, M.; Liao, W.; Yan, Y. Next generation sequencing technologies in cancer diagnosticsand therapeutics: A mini review. Cell. Mol. Biol. 2015, 61, 91–102. [PubMed]"
+          },
+          {
+            "Figure": "29973561_page16_751.jpg",
+            "Figure_title": "© 2018 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/). "
+          }
+        ]
+      }
+    ]
+  }
+]
