@@ -1,3 +1,4 @@
+# 从对应的文章文本中找到提及relation中的gene的句子
 import json
 import pandas as pd
 import numpy as np
@@ -218,8 +219,8 @@ if __name__ == '__main__':
     relation_json = 'relation.json'
     # get_gene_dict(relation_path, relation_json)  # Extract all genes from relation.csv (There is a description in the function)
 
-    # json_path = '../Text_data'
-    json_path = '../test_fetched_pdfs'  # Store the article content extracted from the pdf. See the file Text_data for an example
+    json_path = '../Text_data'
+    # json_path = '../test_fetched_pdfs'  # Store the article content extracted from the pdf. See the file Text_data for an example
 
     with open(relation_json, 'r', encoding='UTF-8') as js:
         gene_dict = json.load(js)

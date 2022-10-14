@@ -1,3 +1,4 @@
+# 从对应的文章文本中找到提及relation中的gene的句子
 import json
 import pandas as pd
 import numpy as np

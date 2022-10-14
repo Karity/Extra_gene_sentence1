@@ -1,3 +1,4 @@
+# 根据提取的文本记录的图片下面的caption 所代表的图片名称（如Figure 1） 找到全文中含有这个图片名称的段落
 import json
 import os
 from pathlib import Path

@@ -1,25 +1,4 @@
-# import pandas as pd
-#
-#
-# def sort_gt(gt_list):
-#     counts = {}
-#     for word in gt_list:
-#         counts[word] = counts.get(word, 0) + 1
-#     items = list(counts.items())
-#     items.sort(key=lambda x: x[1], reverse=True)  # 排序
-#     for i in range(100):
-#         word, count = items[i]
-#         print("{0:<10}{1:>5}".format(word, count))
-#
-#
-# if __name__ == '__main__':
-#     file = pd.read_csv('base/relation1.csv')
-#     print(len(file))
-#     file_name = []
-#     for i in range(len(file)):
-#         file_name.append(file.iloc[i, 1])
-#     print(len(file_name))
-#     sort_gt(file_name)
+# 返回list中个数最多的前top_num个
 import pandas as pd
 
 
@@ -38,7 +17,7 @@ def sort_gt(gt_list, top_num=10):  # 排序 返回前top_num个
 
 
 if __name__ == '__main__':
-    file = pd.read_csv(r'D:\PyCharmProject\Full_pipeline\base/relation1.csv')
+    file = pd.read_csv(r'F:\PyCharm Project\Full_pipeline\base/relation1.csv')
     print(len(file))
     file_name = []
     for i in range(len(file)):

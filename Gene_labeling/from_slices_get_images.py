@@ -1,3 +1,4 @@
+# 将slices对应的images存放到images文件夹下
 import os
 import shutil
 
