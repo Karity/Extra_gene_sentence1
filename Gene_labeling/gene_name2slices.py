@@ -103,7 +103,7 @@ def get_gene_slices(image_path, gene_name: Union[str, List] = None, img_save_fol
 if __name__ == '__main__':
     # path = '../relation'
     path = r'E:\LAPTOP\new_result1'
-    gene_num = get_gene_name_num(path, num=5)
-    print(gene_num)
-
-    # get_gene_slices(path, gene_name=['MTOR', 'AKT'])
+    # gene_num = get_gene_name_num(path, num=5)
+    # print(gene_num)
+    #
+    get_gene_slices(path, gene_name=['MTOR', 'AKT'])

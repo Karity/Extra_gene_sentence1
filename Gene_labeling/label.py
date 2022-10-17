@@ -143,7 +143,7 @@ def save_labeling(file, pmid, sentences, labels):
     print('labels:', labels)
     with open(file, 'a+', newline='', encoding='utf_8_sig') as f:
         tsv_w = csv.writer(f, delimiter='\t')
-        # tsv_w.writerow(['sentence', 'label'])
+        # tsv_w = csv.writer(f)
         for i in range(len(sentences)):
             con = [pmid, sentences[i], labels[i]]
             tsv_w.writerow(con)
@@ -225,7 +225,7 @@ if __name__ == '__main__':
     with open(relation_json, 'r', encoding='UTF-8') as js:
         gene_dict = json.load(js)
 
-    tsv_file = 'file3.tsv'  # Store the found sentences that can be labeled
+    tsv_file = 'file1.tsv'  # Store the found sentences that can be labeled
     # file.tsv Matched gene -> '@GENE$'
     # file1.tsv No change
     with open(tsv_file, 'w', newline='', encoding='utf_8_sig') as f:
@@ -237,8 +237,8 @@ if __name__ == '__main__':
         print('pmid:', pmid)
         file_content = get_sentence_from_textjs1(json_file=os.path.join(json_path, jf))
         if pmid in gene_dict:
-            with open(tsv_file, 'a+', newline='', encoding='utf_8_sig') as f:
-                tsv_w = csv.writer(f, delimiter='\t')
+            # with open(tsv_file, 'a+', newline='', encoding='utf_8_sig') as f:
+            #     tsv_w = csv.writer(f, delimiter='\t')
                 # tsv_w.writerow([pmid])
             for s in range(len(file_content)):
                 if len(file_content[s][0]) > 10:
