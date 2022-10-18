@@ -5,6 +5,7 @@ import numpy as np
 import csv
 from collections import defaultdict
 import os
+from typing import Union
 
 
 def get_gene_dict(relation_path, relation_json):
@@ -45,7 +46,7 @@ def get_gene_dict(relation_path, relation_json):
         json.dump(gene_dict, js)
 
 
-def process_word(word_list):
+def process_word(word_list, upper_lower: bool):  # True:保持原状， False: 变大写或小写upper(), lower()
     chunk = []
     for name in word_list:
         name = name.replace(')', ' ')
@@ -64,8 +65,12 @@ def process_word(word_list):
             chunk.append(name)
         else:
             chunk.append(name)
-
-    chunk = [c for c in chunk if len(c.strip()) > 0]
+    if upper_lower:
+        chunk = [c for c in chunk if len(c.strip()) > 0]
+    elif not upper_lower:
+        chunk = [c.lower() for c in chunk if len(c.strip()) > 0]
+    # elif upper_lower == 'lower':
+    #     chunk = [c.lower() for c in chunk if len(c.strip()) > 0]
     return chunk
 
 
@@ -76,11 +81,21 @@ def sentences_gene(sentence: str, gene_list: set, gene_num=1):
     for i in range(len(sentence_)):
         # print('sentence:', sentence_[i])
         s = sentence_[i].strip().split()  #
-        s = process_word(s)
-        matches = set(s).intersection(gene_list)
-        matches = [match for match in matches if len(match) > 0]
+        s1 = process_word(s, upper_lower=True)  # 原状
+        # print('s1:', s1)
+        s2 = process_word(s, upper_lower=False)
+        # print('s2:', s2)
+        gene_ = []
+        for gene in list(gene_list):
+            gene = gene.lower()
+            gene_.append(gene)
+        gene_list = set(gene_)
+        # print('1:', gene_list)
+        matches = set(s2).intersection(gene_list)
+        matches = [match.upper() for match in matches if len(match) > 0]
         if len(matches) > gene_num:
-            can_sen = ' '.join(s)
+            print('matches:', matches)
+            can_sen = ' '.join(s1)
             candidate_sen.append(can_sen)
             # candidate_sen.append(sentence_[i].strip())
             match_words.append(matches)
@@ -199,12 +214,12 @@ def get_relation_gene(sentences, gene_dict, match_words):
                 for index in match_word_index:
                     if index % 2 == 0:
                         if gene_dict[index + 1] == match_words[i][n]:
-                            relation_ = [match_words[i][m], match_words[i][n]]
+                            relation_ = match_words[i][m], match_words[i][n]
                         else:
                             relation__ = None
                     elif index % 2 == 1:
                         if gene_dict[index - 1] == match_words[i][n]:
-                            relation_ = [match_words[i][n], match_words[i][m]]
+                            relation_ = match_words[i][n], match_words[i][m]
                         else:
                             relation__ = None
         if relation_:
@@ -239,7 +254,7 @@ if __name__ == '__main__':
         if pmid in gene_dict:
             # with open(tsv_file, 'a+', newline='', encoding='utf_8_sig') as f:
             #     tsv_w = csv.writer(f, delimiter='\t')
-                # tsv_w.writerow([pmid])
+            # tsv_w.writerow([pmid])
             for s in range(len(file_content)):
                 if len(file_content[s][0]) > 10:
                     can_sen, match_words = sentences_gene(file_content[s][0], gene_list=set(gene_dict[pmid][0]), gene_num=1)
@@ -251,7 +266,3 @@ if __name__ == '__main__':
                         save_labeling(tsv_file, pmid, can_sen, relation_gene)
         else:
             print('NO ', pmid, ' in relation.csv')
-
-
-
-

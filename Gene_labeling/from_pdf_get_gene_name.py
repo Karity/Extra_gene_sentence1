@@ -31,6 +31,7 @@ if __name__ == '__main__':
         writer.writerow(['PMID', 'sentence', 'gene'])
 
     json_path = '../Text_data'
+    # json_path = r'E:\LAPTOP\test_fetched_pdfs'
     for jf in os.listdir(json_path):
         pmid = jf.split('_text.json')[0]
         print('pmid:', pmid)

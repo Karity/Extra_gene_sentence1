@@ -8,30 +8,33 @@ PMID,sentence,gene
 25505733,AZD9291 and CO-1686 are examples of suchagents and have reported responses in 58–64% of patientswith acquired EGFR TKI resistance and documented T790Mmutation 7 8,['EGFR']
 25505733,There are other strategies in development tar-geting acquired EGFR TKI resistance including chemotherapywith intercalated EGFR TKI combinations with mesenchymal–epidermal transition MET  dual EGFR and heat shock protein90 HSP90 inhibitors and more,['EGFR']
 25505733,For example combination ofafatinib and cetuximab has demonstrated activity in patients withacquired EGFR TKI resistance and T790M positive and nega-tive tumors 9  and the addition of AUY922 to erlotinib hasrestored sensitivity in 22% of patients with acquired resistanceto erlotinib 10,['EGFR']
+25505733,A phase I trial of neratinib an irreversible pan-HERinhibitor and temsirolimus mTOR inhibitor suggested bene-ﬁt in ﬁve patients with HER2-mutant NSCLC 19,['MTOR']
 25505733,In lung cancer MET mutations are rare but ampliﬁcation isseen in up to 21% resulting in constitutive MET activation and isbelieved to be a potential mechanism of acquired EGFR TKI resis-tance 28 29,['EGFR']
 25505733,Crizotinib activity has been reported in MET-ampliﬁedtumors 33  with ongoing studies in EGFR TKI-resistant lungcancer of MET and HGF-targeted agents such as ﬁclatuzumab anti-HGF monoclonal antibody NCT02034981,['EGFR']
 25505733,EGFR mutations,['EGFR']
 25505733,EGFR TKI acquired,['EGFR']
 25505733,BRAF mutation3% smokersDabrafenibPhase I II,['BRAF']
-25505733,"n a, not available; EGFR TKI epidermal growth factor receptor tyrosine kinase inhibitor; NTRK neurotrophic tyrosine kinase receptor type; mTOR mammalian tar-",['EGFR']
+25505733,mTOR activationUp to 90%EverolimusPhase II,['MTOR']
+25505733,"n a, not available; EGFR TKI epidermal growth factor receptor tyrosine kinase inhibitor; NTRK neurotrophic tyrosine kinase receptor type; mTOR mammalian tar-","['EGFR', 'MTOR']"
 25505733,NTRK1 FUSIONSThese have recently been described in never smokers with adeno-carcinoma that is ALK and EGFR wild type,['EGFR']
-25505733,EGFR HER2 to the RAF MEK ERK pathway and others regulat-ing cell growth proliferation and apoptosis 36,"['MEK', 'ERK', 'EGFR']"
+25505733,EGFR HER2 to the RAF MEK ERK pathway and others regulat-ing cell growth proliferation and apoptosis 36,"['MEK', 'EGFR', 'ERK']"
 25505733,The most promising agents in development for KRAS mutantlung cancer have been MEK inhibitors combined with chemother-apy,['MEK']
 25505733,Trametinib another MEK inhibitor showed activity in combi-nation with docetaxel as well as with pemetrexed 42 43,['MEK']
 25505733,BRAF a serine-threonine kinase lies downstream of KRAS anddirectly activates MEK by phosphorylation which in turn activatesERK,"['BRAF', 'MEK']"
 25505733,BRAF v-Raf murine sarcoma viral oncogene homolog B mutationsandBRAF inhibitorsﬁrstgainedattentioninmelanomawhere 40–60% of tumors harbor activating V600E BRAF muta-tions,['BRAF']
 25505733,Dabrafenib a BRAF kinase inhibitor demonstrated a 54% RRin 17 BRAF V600E-mutated NSCLC patients 45,['BRAF']
 25505733,Vemurafenib isanother BRAF kinase inhibitor that shown activity in this popu-lation,['BRAF']
-25505733,There are ongoing clinical trials assessing BRAF MEK and AKT inhibitors in this population,"['AKT', 'BRAF', 'MEK']"
+25505733,There are ongoing clinical trials assessing BRAF MEK and AKT inhibitors in this population,"['BRAF', 'AKT', 'MEK']"
 25505733,PIK3CA encodes the catalytic subunit of PI3K and mutations andampliﬁcation are seen in 2 and 12–17% of NSCLC cases 47 48,['PI3K']
 25505733,These mutations can co-exist with other known driver mutationsin lung adenocarcinoma including EGFR and KRAS and in thesetting of acquired EGFR TKI resistance 49 50  suggesting thatthis may not be a driver mutation in itself,['EGFR']
 25505733,Trials of PI3K speciﬁckinase inhibitors are ongoing,['PI3K']
-25505733,PTEN AKT mTOR,['AKT']
+25505733,PTEN AKT mTOR,"['AKT', 'MTOR']"
 25505733,Loss of PTEN protein expression with subsequent AKT overex-pression occurs in a third of NSCLC cases and is associated withpoor prognosis in lung cancer 51,['AKT']
-25505733,AKT activation and mTOR phosphorylation is found in 51% ofNSCLC cases although AKT mutations are rare <1%,['AKT']
-25505733,Giventhe high level of activation and “crosstalk” with the RAS–RAF–MEK pathway studies of mTOR and AKT inhibitors are of majorinterest in lung cancer,['AKT']
-25505733,Everolimus RAD001  temsirolimus andother mTOR inhibitors are being investigated in combination withother targeted agents including EGFR TKIs although toxicity ofthese agents remains challenging with high rates of fatigue andstomatitis 53 54,['EGFR']
+25505733,AKT activation and mTOR phosphorylation is found in 51% ofNSCLC cases although AKT mutations are rare <1%,"['AKT', 'MTOR']"
+25505733,Giventhe high level of activation and “crosstalk” with the RAS–RAF–MEK pathway studies of mTOR and AKT inhibitors are of majorinterest in lung cancer,"['AKT', 'MTOR']"
+25505733,Everolimus RAD001  temsirolimus andother mTOR inhibitors are being investigated in combination withother targeted agents including EGFR TKIs although toxicity ofthese agents remains challenging with high rates of fatigue andstomatitis 53 54,"['EGFR', 'MTOR']"
 25505733,PI3K can be activated by transmembrane receptor tyrosinekinases like EGFR or RAS through phosphorylation of AKT,"['AKT', 'EGFR', 'PI3K']"
+25505733,Activated mTOR complexes mTORC1  downstream of PI3K–AKT result in increased ribosomal protein synthesis and furtherAKT activation mTORC2,['MTOR']
 25505733,Despitea negative study with iniparib and chemotherapy veliparib andolaparib are being evaluated in combination with platinum-basedtherapy or EGFR TKI in NSCLC,['EGFR']
 25505733,Heat shock protein 90 is a chaperone protein that assists post-translational folding of several proteins to stabilize and protectthem from cellular stresses like heat or hypoxia including criticalproteins in lung cancer such as EGFR HER2 MET ALK and oth-ers,['EGFR']
 25505733,HSP90 inhibitors have shown activity in EGFR mutant lungcancer after the development of resistance in ALK-rearrangedtumors and more recently in EGFR wild type adenocarcinomawhen combined with chemotherapy 59,['EGFR']
@@ -43,8 +46,10 @@ PMID,sentence,gene
 25505733,Roleof KRAS and EGFR as biomarkers of response to erlotinib in National Can-cer Institute of Canada clinical trials group study BR,['EGFR']
 25505733,Interimresults of phase II study BRF113928 of dabrafenib in BRAF V600E mutation–positive non-small cell lung cancer NSCLC patients,['BRAF']
 25505733,The PI3K pathway as drug targetin human cancer,['PI3K']
+25505733,Phosphorylated Akt overexpression andloss of PTEN expression in non-small cell lung cancer confers poor prognosis,['AKT']
+25505733,The mTOR pathway in lung cancer and impli-cations for therapy and biomarker analysis,['MTOR']
 29973561,v-Raf murine sarcoma viral oncogene homolog B1 BRAF is another potentialtarget for advanced NSCLC treatment since mutations in BRAF have been shown to play a role in,['BRAF']
-29973561,"When mutated these growth factor receptors could cause upregulationand ampliﬁcation of various downstream signaling pathways including the MAP kinase PI3K AKT,and mTOR pathways",['PI3K']
+29973561,"When mutated these growth factor receptors could cause upregulationand ampliﬁcation of various downstream signaling pathways including the MAP kinase PI3K AKT,and mTOR pathways","['MTOR', 'PI3K']"
 29973561,Epidermal growth factor receptor EGFR is a transmembrane growth factor receptor whichplays an important role in regulating cell proliferation survival and growth [54],['EGFR']
 29973561,Upon binding to epidermal growth factor EGF  EGFR dimerizes and autophosphorylates leading to activation of downstream intracellular signalingcascades such as RAS-RAF-MEK-ERK and PI3K-AKT-mTOR Figure 1 [24],['EGFR']
 29973561,Mutations in EGFR thatresult in its constitutive activation are believed to be an important contributor to the tumorigenesis ofmany cancer types including lung cancer,['EGFR']
@@ -52,18 +57,19 @@ PMID,sentence,gene
 29973561,Exon 20 insertions account for roughly 9% of activatingEGFR mutations and prognosis for NSCLC patients with exon 20 insertion mutant EGFR is generallyquite poor [56],['EGFR']
 29973561,Phosphorylation of receptor tyrosine kinases such as ALK c-MET and EGFR lead to activation of downstream signaling pathways that are responsible for cell proliferation survival and angiogenesis,['EGFR']
 29973561,"Activation of PI3K mTOR, Wnt and RAS-MAPK pathways may cause resistance to TKIs",['PI3K']
-29973561,Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition,['EGFR']
+29973561,Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition,"['AKT', 'EGFR']"
 29973561,Tyrosine kinase inhibitors TKIs have been developed to inhibit mutated EGFR and its constitutive activation,['EGFR']
 29973561,The first generation of EGFR TKIs includes erlotinib and gefitinib,['EGFR']
 29973561,They reduce aberrant EGFR signaling via reversible inhibition of the ATP-binding pocket in the EGFR kinase domain,['EGFR']
 29973561,Unfortunately the development of TKI resistance is common after prolonged use of these EGFR TKIs [9],['EGFR']
 29973561,One major mechanism for the acquired resistance to EGFR TKIs is the development of the T790M secondary mutation within the EGFR kinase domain,['EGFR']
 29973561,The bulkier methionine residue at position 790 sterically hinders its interaction with TKIs and increases affinity for ATP thus reducing inhibitor binding to the EGFR kinase domain while preserving catalytic activity [10],['EGFR']
+29973561,Therefore a significant portion of acquired resistance arises from other mechanisms such as upregulation of the mTOR pathway or EMT [58 59],['MTOR']
 29973561,Additional secondary mutations such as D761Y T854A and L747S Figure 1 are reported to arise subsequently to the EGFR TKI sensitizing L858R mutation and cause resistance [11],['EGFR']
 29973561,In cell lines which are intrinsically resistant due to the presence of mutated EGFR increased activity of TGF-β which is often produced during an inflammatory response has been shown to initiate transition to mesenchymal-like cell morphology accompanied by increased mobility invasiveness and resistance to erlotinib [60],['EGFR']
 29973561,Phosphorylation of receptor tyrosine kinases such as ALK c-MET and EGFR lead to activation of downstream signaling pathways that are responsible for cell proliferation survival and angiogenesis,['EGFR']
 29973561,"Activation of PI3K mTOR, Wnt and RAS-MAPK pathways may cause resistance to TKIs",['PI3K']
-29973561,Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition,['EGFR']
+29973561,Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition,"['AKT', 'EGFR']"
 29973561,Tyrosine kinase inhibitors TKIs have been developed to inhibit mutated EGFR and its constitutiveactivation,['EGFR']
 29973561,The ﬁrst generation of EGFR TKIs includes erlotinib and geﬁtinib,['EGFR']
 29973561,They reduce aberrantEGFR signaling via reversible inhibition of the ATP-binding pocket in the EGFR kinase domain,['EGFR']
@@ -73,7 +79,7 @@ PMID,sentence,gene
 29973561,In cell lines which are intrinsically resistant due to the presence of mutated EGFR increasedactivity of TGF-β which is often produced during an inﬂammatory response has been shown to initiatetransition to mesenchymal-like cell morphology accompanied by increased mobility invasiveness and resistance to erlotinib [60],['EGFR']
 29973561,Another study demonstrated PIK3CA mutations in 5% of lung cancerpatients having EGFR mutations with acquired resistance,['EGFR']
 29973561,These mutations are reported to conferresistance by activating downstream targets such as AKT [62],['AKT']
-29973561,Our recent studies indicate that theactivation of alternative signaling pathways such as PI3K mTOR and Wnt may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however in cell lines with mutant EGFR there is activation of the mTOR pathway,"['EGFR', 'PI3K']"
+29973561,Our recent studies indicate that theactivation of alternative signaling pathways such as PI3K mTOR and Wnt may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however in cell lines with mutant EGFR there is activation of the mTOR pathway,"['MTOR', 'EGFR', 'PI3K']"
 29973561,Activation of all these alternative pathways may contributeto EGFR and c-MET signaling resulting in acquired resistance [63 64],['EGFR']
 29973561,Furthermore Wnt can causeactivation of EGFR and MAPK signaling via the Wnt Fz LRP pathway [64 65],['EGFR']
 29973561,It has also been found that the hedgehog Hh signaling pathway is inappropriately activatedin EGFR TKI resistant NSCLC cells though silenced in EGFR TKI sensitive cells implicating Hhactivation in the development of EGFR TKI resistance via the induction of EMT and upregulationof the stem cell marker ABCG2 Figure 2 [66],['EGFR']
@@ -151,27 +157,44 @@ PMID,sentence,gene
 29973561,Trametinib a MEK inhibitor is used in conjunction withvemurafenib to enhance the efﬁcacy Figure 1,['MEK']
 29973561,This combinatory treatment also increased ERK inhibition comparedto monotherapy [53],['ERK']
 29973561,This combinatory treatment also increased ERK inhibition compared to monotherapy [53],['ERK']
-29973561,CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors,"['BRAF', 'ARAF', 'CRAF', 'COT']"
+29973561,CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors,"['ARAF', 'BRAF', 'COT', 'CRAF']"
 29973561,"Elevated expression of alternative RAF isoforms ARAF and CRAF  as well as MAP3K8 COT, can stimulate the MAPK pathway despite BRAF inhibition","['BRAF', 'ARAF']"
 29973561,The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition,"['BRAF', 'PI3K']"
 29973561,Mechanisms of resistance for several TKIs against EGFR c-MET ALK have been investigated and identified,['EGFR']
 29973561,Further studies are also necessary to further elucidate the mechanism of acquired resistance to HER2 and BRAF as well as to develop effective therapies to overcome them,['BRAF']
-29973561,CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors,"['BRAF', 'ARAF', 'CRAF', 'COT']"
+29973561,CRAF ARAF COT and MCL-1 confer resistance to BRAF inhibitors,"['ARAF', 'BRAF', 'COT', 'CRAF']"
 29973561,"Elevated expression of alternative RAF isoforms ARAF and CRAF  as well as MAP3K8 COT, can stimulate the MAPK pathway despite BRAF inhibition","['BRAF', 'ARAF']"
 29973561,The PI3K and MAPK pathways also activate MCL-1 and may provide a route to escape apoptosis and bypass BRAF inhibition,"['BRAF', 'PI3K']"
 29973561,Mechanisms of resistance for several TKIs against EGFR c-MET ALK have beeninvestigated and identiﬁed,['EGFR']
 29973561,Further studies are also necessary tofurther elucidate the mechanism of acquired resistance to HER2 and BRAF as well as to develop,['BRAF']
+29973561,Clinical pathologic and biologic features associated with braf mutations in non-small cell lungcancer,['BRAF']
 29973561,Signaling intermediates MAPK and PI3K as therapeutic targets innsclc,['PI3K']
+29973561,Intratumoral heterogeneity in EGFR-mutant NSCLC results in divergent resistancemechanisms in response to egfr tyrosine kinase inhibition,['EGFR']
+29973561,Local therapy with continued egfr tyrosine kinase inhibitor therapy as a treatment strategyin egfr-mutant advanced lung cancers that have developed acquired resistance to egfr tyrosine kinaseinhibitors,['EGFR']
 29973561,The t790m “gatekeeper” mutation in EGFR mediates resistance to low concentrations of anirreversible egfr inhibitor,['EGFR']
+29973561,The role of egfr inhibition in the treatment of non-small cell lung cancer,['EGFR']
 29973561,Azd9291 in EGFR inhibitor-resistant non-small-cell lung cancer,['EGFR']
+29973561,Antitumor activity of osimertinib an irreversible mutant-selective EGFRtyrosine kinase inhibitor in nsclc harboring egfr exon 20 insertions,['EGFR']
+29973561,Egfr-independentmechanisms of acquired resistance to azd9291 in egfr t790m-positive nsclc patients,['EGFR']
 29973561,EGFR g796dmutation mediates resistance to osimertinib,['EGFR']
 29973561,EGFR c797s mutation mediates resistance to third-generationinhibitors in t790m-positive non-small cell lung cancer,['EGFR']
+29973561,Eai045: The fourth-generation egfr inhibitor overcoming t790m and c797sresistance,['EGFR']
+29973561,Dabrafenib in patients with braf v600e-mutant advanced non-small cell lung cancer NSCLC :A multicenter open-label phase II trial BRF113928,['BRAF']
 29973561,Molecular characterization of acquired resistance to the BRAF inhibitordabrafenib in a patient with braf-mutant non-small-cell lung cancer,['BRAF']
+29973561,Resistance to braf inhibitors: Unraveling mechanisms and futuretreatment options,['BRAF']
 29973561,COT drives resistance to Raf inhibition through MAPkinase pathway reactivation,['COT']
+29973561,Trametinib with or without vemurafenib in braf mutatednon-small cell lung cancer,['BRAF']
 29973561,Activating and resistance mutations of egfr in non-small-cell lung cancer: Role in clinicalresponse to EGFR tyrosine kinase inhibitors,['EGFR']
 29973561,T790m and acquired resistance of EGFR TKI: A literature review of clinical reports,['EGFR']
+29973561,Alternative signalingpathways as potential therapeutic targets for overcoming egfr and c-met inhibitor resistance in non-smallcell lung cancer,['EGFR']
+29973561,Mechanism of resistance and novel targetsmediating resistance to egfr and c-met tyrosine kinase inhibitors in non-small cell lung cancer,['EGFR']
 29973561,HER2 kinase domain mutation results in constitutive phosphorylation andactivation of HER2 and EGFR and resistance to egfr tyrosine kinase inhibitors,['EGFR']
 29973561,Synergism of EGFR and c-MET pathways cross-talk and inhibition in non-small celllung cancer,['EGFR']
 29973561,Combined therapy with mutant-selective EGFR inhibitor and MET kinaseinhibitor for overcoming erlotinib resistance in EGFR-mutant lung cancer,['EGFR']
+29973561,Combinedinhibition of igfr enhances the effects of geﬁtinib in h1650: A lung cancer cell line with egfr mutation andprimary resistance to EGFR-TK inhibitors,['EGFR']
+29973561,Synergistic effects of metformin treatment in combination with geﬁtinib a selective egfr tyrosine kinase inhibitor in LKB1 wild-type nsclc cell lines,['EGFR']
+29973561,Activation of signal transducer and activator of transcription 3 STAT3 signaling in egfr mutant non-small-cell lung cancer NSCLC,['EGFR']
 29973561,Acquired resistance to the mutant-selective EGFR inhibitor azd9291 is associatedwith increased dependence on Ras signaling in preclinical models,['EGFR']
 29973561,The distribution of BRAF gene fusions in solid tumors and response to targeted therapy,['BRAF']
+29973561,Clinicalcharacteristics of patients with lung adenocarcinomas harboring braf mutations,['BRAF']
+29973561,Braf mutations in non-small cell lung cancer,['BRAF']

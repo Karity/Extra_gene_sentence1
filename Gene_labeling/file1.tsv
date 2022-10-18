@@ -1,14 +1,22 @@
 ﻿PMID	sentence	label
-25505733	EGFR HER2 to the RAF MEK ERK pathway and others regulat-ing cell growth proliferation and apoptosis 36	['MEK', 'ERK']
-25505733	BRAF a serine-threonine kinase lies downstream of KRAS anddirectly activates MEK by phosphorylation which in turn activatesERK	['BRAF', 'MEK']
-25505733	There are ongoing clinical trials assessing BRAF MEK and AKT inhibitors in this population	['BRAF', 'MEK']
-25505733	PI3K can be activated by transmembrane receptor tyrosinekinases like EGFR or RAS through phosphorylation of AKT	['AKT', 'PI3K']
-29973561	Our recent studies indicate that theactivation of alternative signaling pathways such as PI3K mTOR and Wnt may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however in cell lines with mutant EGFR there is activation of the mTOR pathway	['EGFR', 'PI3K']
-29973561	Inappropriate ampliﬁcation of MET a gene that codes for an epithelial RTK thatactivates signaling of the MAPK PI3K and SRC pathways upon binding by its ligand hepatocytegrowth factor HGF [69] stimulates the AKT pathway and is also a major contributor to EGFR TKIsecondary resistance Figure 1	['AKT', 'PI3K']
-29973561	More speciﬁcally MET ampliﬁcation has been shown topromote geﬁtinib resistance by activating PI3K through ERBB3 HER3 despite EGFR inhibition viageﬁtinib [70]	['EGFR', 'PI3K']
+25505733	n a, not available; EGFR TKI epidermal growth factor receptor tyrosine kinase inhibitor; NTRK neurotrophic tyrosine kinase receptor type; mTOR mammalian tar-	
+25505733	EGFR HER2 to the RAF MEK ERK pathway and others regulat-ing cell growth proliferation and apoptosis 36	('MEK', 'ERK')
+25505733	BRAF a serine-threonine kinase lies downstream of KRAS anddirectly activates MEK by phosphorylation which in turn activatesERK	('BRAF', 'MEK')
+25505733	There are ongoing clinical trials assessing BRAF MEK and AKT inhibitors in this population	('BRAF', 'MEK')
+25505733	PTEN AKT mTOR	
+25505733	AKT activation and mTOR phosphorylation is found in 51% ofNSCLC cases although AKT mutations are rare <1%	
+25505733	Giventhe high level of activation and “crosstalk” with the RAS–RAF–MEK pathway studies of mTOR and AKT inhibitors are of majorinterest in lung cancer	
+25505733	Everolimus RAD001  temsirolimus andother mTOR inhibitors are being investigated in combination withother targeted agents including EGFR TKIs although toxicity ofthese agents remains challenging with high rates of fatigue andstomatitis 53 54	
+25505733	PI3K can be activated by transmembrane receptor tyrosinekinases like EGFR or RAS through phosphorylation of AKT	('AKT', 'PI3K')
+29973561	When mutated these growth factor receptors could cause upregulationand ampliﬁcation of various downstream signaling pathways including the MAP kinase PI3K AKT,and mTOR pathways	
+29973561	Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition	
+29973561	Dimerization of IGF-1R with EGFR may activate the Akt and MAPK pathways despite inhibition	
+29973561	Our recent studies indicate that theactivation of alternative signaling pathways such as PI3K mTOR and Wnt may also cause resistanceto EGFR TKIs in certain cell lines with wild-type EGFR; however in cell lines with mutant EGFR there is activation of the mTOR pathway	('EGFR', 'PI3K')
+29973561	Inappropriate ampliﬁcation of MET a gene that codes for an epithelial RTK thatactivates signaling of the MAPK PI3K and SRC pathways upon binding by its ligand hepatocytegrowth factor HGF [69] stimulates the AKT pathway and is also a major contributor to EGFR TKIsecondary resistance Figure 1	('AKT', 'PI3K')
+29973561	More speciﬁcally MET ampliﬁcation has been shown topromote geﬁtinib resistance by activating PI3K through ERBB3 HER3 despite EGFR inhibition viageﬁtinib [70]	('EGFR', 'PI3K')
 29973561	IGF-1R has thepotential to dimerize with EGFR after treatment with erlotinib transducing signals to the AKT andMAPK signaling pathways that would otherwise be silenced by erlotinib Figure 1	
-29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	['EGFR', 'PI3K']
-29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	['EGFR', 'PI3K']
+29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	('EGFR', 'PI3K')
+29973561	Dimerization with IGF-1R allows activation of the MAPK and PI3K pathways despite EGFR inhibition	('EGFR', 'PI3K')
 29973561	One study has shown thatelevated expression of alternate isoforms of RAF proteins CRAF and ARAF can continually stimulate	
 29973561	Increased expression of MAP3K8 or COT can stimulate the MAPK pathway to bypass BRAF inhibition Figure 3 [50 51]	
 29973561	Parallel activation of the PI3K pathway may inhibit apoptosis in BRAF-mutant NSCLC throughMCL-1 despite inhibition of BRAF [50]	
