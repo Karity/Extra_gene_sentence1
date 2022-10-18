@@ -1,4 +1,4 @@
-# 获取slices_path文件夹下的slices对应的文本
+# 获取slices_path文件夹下的gene relation slices对应的文本
 import os
 import csv
 import pandas as pd
